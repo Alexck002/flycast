@@ -1,0 +1,1378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		16BFDBBCC061913F1CADEF4A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78E9F1006E5047E188028A38 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				058E6A0206D41EA1A9526D97 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3AAC091DF8814E829E83D032 /* PBXTargetDependency */,
+				DA51B6B26ED24CC09D161214 /* PBXTargetDependency */,
+				30606C45CD3848939BD9099B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		2F6E340B880F8019E67E84A3 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9234D8D304214A5985BDD3FC /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A8B1155C7C11463DBD1ABCFD /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		682A2F1F20D8339B84A3D770 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E50C9EF7521546AFAC462897 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				C78F255C722F4A87AB87A68F /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		B0B29501EBEC1C234713D131 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6D7CFE8E82CD43F3B3B1B092 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F3A661D5D368059F9CE9F53F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04E657862A8C4458B99B9A60 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/ALTServerError+Conveniences.swift */ = {isa = PBXBuildFile; fileRef = E0FF5E2169514898A42644C0 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/ALTServerError+Conveniences.swift */; };
+		3EBAF0E1B7E04FB6A01E14EE /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Server.swift */ = {isa = PBXBuildFile; fileRef = 071FFF1B8650400E980E1C91 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Server.swift */; };
+		4CD3ADF5349443B8BB008DDA /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerManager.swift */ = {isa = PBXBuildFile; fileRef = 30A98E5BAA67421B9EEF847D /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerManager.swift */; };
+		647EC306C9704A7B8BA0477B /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/Result+Conveniences.swift */ = {isa = PBXBuildFile; fileRef = 58EF2EBE2B434FB4B5A8102C /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/Result+Conveniences.swift */; };
+		6A35F5505D5040B2BF527562 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5E54303CE72446D3A36E93D2 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */; };
+		8453BCEC1F1E470DA8CFF895 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerConnection.swift */ = {isa = PBXBuildFile; fileRef = F7EDD9C2AD364C25A9C317D2 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerConnection.swift */; };
+		88CDAB5AB45B4795B7F9E46D /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9439639C339546ED97AB875E /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */; };
+		8D05DA61AF5142E89EA17EFC /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/CAltKit.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 1693B560EB2E40EA967054DF /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/CAltKit.dir/Info.plist */; };
+		9077F2CA390C421A8CA81D50 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerProtocol.swift */ = {isa = PBXBuildFile; fileRef = 0934658E023349178E038330 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerProtocol.swift */; };
+		9114ED265D49423DA144E8AD /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Connection.swift */ = {isa = PBXBuildFile; fileRef = 2DC2C129F7484B2ABB362FF9 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Connection.swift */; };
+		A95CBF3ACA2C4C72BAB16BA3 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.h */ = {isa = PBXBuildFile; fileRef = AB33042D3F414948A4022BF8 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.h */; };
+		AA4AF272C14B4676AEB98ABE /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/NetworkConnection.swift */ = {isa = PBXBuildFile; fileRef = 0A3E5909AE464FACA3D243C6 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/NetworkConnection.swift */; };
+		B7E99B0C03004ADEB6ABFEE7 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Types/CodableServerError.swift */ = {isa = PBXBuildFile; fileRef = 2F69692A60974F24894E9271 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Types/CodableServerError.swift */; };
+		B9A43AB9185B43599C6E9C19 /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/AltKit.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B0EBCD6DA7414F46814D1BE2 /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/AltKit.dir/Info.plist */; };
+		E9823D0A885045049016C1E5 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.m */ = {isa = PBXBuildFile; fileRef = 3390F51E7240448FACBE7BCE /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		14FB0C7E3DEF44409CAE3C21 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		35D3BBB547954FCD88BF3F9A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A7D53DC88CB345C5AF9840D9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C08DF5D8C31D4DA68476D3CA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		25BC57451DEA49E09FEF4D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B29501EBEC1C234713D131;
+			remoteInfo = ZERO_CHECK;
+		};
+		54774F72B6294EB58062545D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
+			remoteInfo = ALL_BUILD;
+		};
+		5B34305D39D34A9084D08E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFC52D0FC9924DF18FB7D7A;
+			remoteInfo = AltKit;
+		};
+		5DD40CB014064FEC8EFB6238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B29501EBEC1C234713D131;
+			remoteInfo = ZERO_CHECK;
+		};
+		642270E60DFF461D8F2F6C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
+			remoteInfo = ALL_BUILD;
+		};
+		86590D5C57774E8C9952222D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C354B4BAF364491BCB2867;
+			remoteInfo = CAltKit;
+		};
+		93D8FED782104FD8B88A26ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B29501EBEC1C234713D131;
+			remoteInfo = ZERO_CHECK;
+		};
+		A0B6580DB5264F94ADE214F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C354B4BAF364491BCB2867;
+			remoteInfo = CAltKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032D25B817F547DEA19B5A39 /* AltKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAltKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		071FFF1B8650400E980E1C91 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Server.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = Server.swift; path = Sources/AltKit/Server/Server.swift; sourceTree = SOURCE_ROOT; };
+		0934658E023349178E038330 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerProtocol.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = ServerProtocol.swift; path = Sources/AltKit/Server/ServerProtocol.swift; sourceTree = SOURCE_ROOT; };
+		0A3E5909AE464FACA3D243C6 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/NetworkConnection.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = NetworkConnection.swift; path = Sources/AltKit/Server/NetworkConnection.swift; sourceTree = SOURCE_ROOT; };
+		1693B560EB2E40EA967054DF /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/CAltKit.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/CAltKit.dir/Info.plist"; sourceTree = "<absolute>"; };
+		2DC2C129F7484B2ABB362FF9 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Connection.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = Connection.swift; path = Sources/AltKit/Server/Connection.swift; sourceTree = SOURCE_ROOT; };
+		2F69692A60974F24894E9271 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Types/CodableServerError.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = CodableServerError.swift; path = Sources/AltKit/Types/CodableServerError.swift; sourceTree = SOURCE_ROOT; };
+		30A98E5BAA67421B9EEF847D /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerManager.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = ServerManager.swift; path = Sources/AltKit/Server/ServerManager.swift; sourceTree = SOURCE_ROOT; };
+		3390F51E7240448FACBE7BCE /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = "NSError+ALTServerError.m"; path = "Sources/CAltKit/NSError+ALTServerError.m"; sourceTree = SOURCE_ROOT; };
+		58EF2EBE2B434FB4B5A8102C /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/Result+Conveniences.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = "Result+Conveniences.swift"; path = "Sources/AltKit/Extensions/Result+Conveniences.swift"; sourceTree = SOURCE_ROOT; };
+		5E54303CE72446D3A36E93D2 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		66E289F9977B4559AA350647 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9439639C339546ED97AB875E /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AB33042D3F414948A4022BF8 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSError+ALTServerError.h"; path = "Sources/CAltKit/NSError+ALTServerError.h"; sourceTree = SOURCE_ROOT; };
+		B0EBCD6DA7414F46814D1BE2 /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/AltKit.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/AltKit.dir/Info.plist"; sourceTree = "<absolute>"; };
+		BE706BDE23D04872881E15CF /* CAltKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCAltKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FF5E2169514898A42644C0 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/ALTServerError+Conveniences.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = "ALTServerError+Conveniences.swift"; path = "Sources/AltKit/Extensions/ALTServerError+Conveniences.swift"; sourceTree = SOURCE_ROOT; };
+		F7EDD9C2AD364C25A9C317D2 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerConnection.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = ServerConnection.swift; path = Sources/AltKit/Server/ServerConnection.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B303922B2E43FFB63020E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B88CD1C99E34855AC07D542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042F7FCEFB8D44E2BFAD9850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B8118681FFF43B3BA77503B = {
+			isa = PBXGroup;
+			children = (
+				E121F78FB42F4E8B92FE8FF0 /* ALL_BUILD */,
+				D5C31947C8954EE89B437B65 /* AltKit */,
+				A973D9EBB1A7488C8D6606CD /* CAltKit */,
+				1F286492DEF4451BAD8CB1C5 /* Products */,
+				042F7FCEFB8D44E2BFAD9850 /* Frameworks */,
+				B2EEAD27D1854418A456CE3E /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		1F286492DEF4451BAD8CB1C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032D25B817F547DEA19B5A39 /* AltKit */,
+				BE706BDE23D04872881E15CF /* CAltKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38900AB543B84DA4AEB2746F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0EBCD6DA7414F46814D1BE2 /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/AltKit.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D1B58C7B2A64387BDA4AE59 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3390F51E7240448FACBE7BCE /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A04CAA0CBB9548629836342C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A973D9EBB1A7488C8D6606CD /* CAltKit */ = {
+			isa = PBXGroup;
+			children = (
+				C16C698715A948BDB4B80718 /* Header Files */,
+				E9FD86123BE8402DADAAFAD5 /* Resources */,
+				6D1B58C7B2A64387BDA4AE59 /* Source Files */,
+				9439639C339546ED97AB875E /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */,
+			);
+			name = CAltKit;
+			sourceTree = "<group>";
+		};
+		B2EEAD27D1854418A456CE3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C16C698715A948BDB4B80718 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB33042D3F414948A4022BF8 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D5C31947C8954EE89B437B65 /* AltKit */ = {
+			isa = PBXGroup;
+			children = (
+				38900AB543B84DA4AEB2746F /* Resources */,
+				5E54303CE72446D3A36E93D2 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */,
+				E0FF5E2169514898A42644C0 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/ALTServerError+Conveniences.swift */,
+				58EF2EBE2B434FB4B5A8102C /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/Result+Conveniences.swift */,
+				2DC2C129F7484B2ABB362FF9 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Connection.swift */,
+				0A3E5909AE464FACA3D243C6 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/NetworkConnection.swift */,
+				071FFF1B8650400E980E1C91 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Server.swift */,
+				F7EDD9C2AD364C25A9C317D2 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerConnection.swift */,
+				30A98E5BAA67421B9EEF847D /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerManager.swift */,
+				0934658E023349178E038330 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerProtocol.swift */,
+				2F69692A60974F24894E9271 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Types/CodableServerError.swift */,
+			);
+			name = AltKit;
+			sourceTree = "<group>";
+		};
+		E121F78FB42F4E8B92FE8FF0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A04CAA0CBB9548629836342C /* CMake Rules */,
+				66E289F9977B4559AA350647 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E9FD86123BE8402DADAAFAD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1693B560EB2E40EA967054DF /* /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/CAltKit.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C354B4BAF364491BCB2867 /* CAltKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FFCC1E24FE64979982AA853 /* Build configuration list for PBXNativeTarget "CAltKit" */;
+			buildPhases = (
+				B212A95B5A79457AB1713D3A /* Sources */,
+				4B88CD1C99E34855AC07D542 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E799E854918D484789C21E64 /* PBXTargetDependency */,
+			);
+			name = CAltKit;
+			productName = CAltKit;
+			productReference = BE706BDE23D04872881E15CF /* CAltKit */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCFC52D0FC9924DF18FB7D7A /* AltKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A402B4AF9C4D44B26D69C4 /* Build configuration list for PBXNativeTarget "AltKit" */;
+			buildPhases = (
+				8A11FA6C62E741E5820D6B53 /* Sources */,
+				01B303922B2E43FFB63020E3 /* Frameworks */,
+				AB2D93E933F4A0743BE4F50F /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F58E61C263429BA7B8E2D7 /* PBXTargetDependency */,
+				7A8F6EE5601640EA9A869976 /* PBXTargetDependency */,
+			);
+			name = AltKit;
+			productName = AltKit;
+			productReference = 032D25B817F547DEA19B5A39 /* AltKit */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDBD9084A9C49FFADA2BA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 9BE3531AFC32465E8D01B785 /* Build configuration list for PBXProject "AltKit" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A7D53DC88CB345C5AF9840D9 /* Debug */,
+				14FB0C7E3DEF44409CAE3C21 /* Release */,
+				35D3BBB547954FCD88BF3F9A /* MinSizeRel */,
+				C08DF5D8C31D4DA68476D3CA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1B8118681FFF43B3BA77503B;
+			projectDirPath = "/Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit";
+			projectRoot = "";
+			targets = (
+				16BFDBBCC061913F1CADEF4A /* ALL_BUILD */,
+				CCFC52D0FC9924DF18FB7D7A /* AltKit */,
+				19C354B4BAF364491BCB2867 /* CAltKit */,
+				2F6E340B880F8019E67E84A3 /* install */,
+				682A2F1F20D8339B84A3D770 /* package */,
+				B0B29501EBEC1C234713D131 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058E6A0206D41EA1A9526D97 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexmatos/flycast/build-ios
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexmatos/flycast/build-ios
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexmatos/flycast/build-ios
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexmatos/flycast/build-ios
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AB2D93E933F4A0743BE4F50F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  cp $DERIVED_SOURCES_DIR/AltKit-Swift.h /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  cp $DERIVED_SOURCES_DIR/AltKit-Swift.h /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  cp $DERIVED_SOURCES_DIR/AltKit-Swift.h /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  cp $DERIVED_SOURCES_DIR/AltKit-Swift.h /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F3A661D5D368059F9CE9F53F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  make -f /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  make -f /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  make -f /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit
+  make -f /Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A11FA6C62E741E5820D6B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E657862A8C4458B99B9A60 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/ALTServerError+Conveniences.swift */,
+				647EC306C9704A7B8BA0477B /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Extensions/Result+Conveniences.swift */,
+				9114ED265D49423DA144E8AD /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Connection.swift */,
+				AA4AF272C14B4676AEB98ABE /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/NetworkConnection.swift */,
+				3EBAF0E1B7E04FB6A01E14EE /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/Server.swift */,
+				8453BCEC1F1E470DA8CFF895 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerConnection.swift */,
+				4CD3ADF5349443B8BB008DDA /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerManager.swift */,
+				9077F2CA390C421A8CA81D50 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Server/ServerProtocol.swift */,
+				B7E99B0C03004ADEB6ABFEE7 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/AltKit/Types/CodableServerError.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B212A95B5A79457AB1713D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9823D0A885045049016C1E5 /* /Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit/NSError+ALTServerError.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30606C45CD3848939BD9099B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
+			targetProxy = 93D8FED782104FD8B88A26ED /* PBXContainerItemProxy */;
+		};
+		3AAC091DF8814E829E83D032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C354B4BAF364491BCB2867 /* CAltKit */;
+			targetProxy = 86590D5C57774E8C9952222D /* PBXContainerItemProxy */;
+		};
+		66F58E61C263429BA7B8E2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C354B4BAF364491BCB2867 /* CAltKit */;
+			targetProxy = A0B6580DB5264F94ADE214F6 /* PBXContainerItemProxy */;
+		};
+		7A8F6EE5601640EA9A869976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
+			targetProxy = 5DD40CB014064FEC8EFB6238 /* PBXContainerItemProxy */;
+		};
+		A8B1155C7C11463DBD1ABCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BFDBBCC061913F1CADEF4A /* ALL_BUILD */;
+			targetProxy = 54774F72B6294EB58062545D /* PBXContainerItemProxy */;
+		};
+		C78F255C722F4A87AB87A68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BFDBBCC061913F1CADEF4A /* ALL_BUILD */;
+			targetProxy = 642270E60DFF461D8F2F6C9D /* PBXContainerItemProxy */;
+		};
+		DA51B6B26ED24CC09D161214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFC52D0FC9924DF18FB7D7A /* AltKit */;
+			targetProxy = 5B34305D39D34A9084D08E96 /* PBXContainerItemProxy */;
+		};
+		E799E854918D484789C21E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
+			targetProxy = 25BC57451DEA49E09FEF4D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		132E94255CFA465EB0C0B6B4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = RelWithDebInfo;
+		};
+		1AC72B557E4C429FA6C297FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2176633110CA4875B5844C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = ("-Onone    -swift-version 5.0 ","$(inherited)");
+				PRODUCT_NAME = AltKit;
+				SECTORDER_FLAGS = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = ("$(inherited)");
+				SWIFT_INCLUDE_PATHS = "/Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit";
+				SWIFT_VERSION = 5.0;
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/AltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		21BD2FCB67CF4EAB928C1F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = ("   -swift-version 5.0 ","$(inherited)");
+				PRODUCT_NAME = AltKit;
+				SECTORDER_FLAGS = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = ("$(inherited)");
+				SWIFT_INCLUDE_PATHS = "/Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit";
+				SWIFT_VERSION = 5.0;
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/AltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		32236A2910CB49949FE52355 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		35B32094FD654C8F8C31A39F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = MinSizeRel;
+		};
+		3746D35A6839400F9D070DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = Debug;
+		};
+		457E8645EC2F43C9993B4EE7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5DAF6733FFB1454295BE660A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = Release;
+		};
+		61B08AE0BA724E3A93BF0FE1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		667B783F512A4D6891A38974 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6D0C3EDBF9F1474DAD5948D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		76B21467EBC147B8A7932B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8C0FD6F80BF54FF1958FB55E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CAltKit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/CAltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		938AFA6A09DE41D6A04A605C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CAltKit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/CAltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AD1BB31312784080860E66F2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B17B832E740A4DC28FB09A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B277DAD90A564BD5A7E4EA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B482C92CCDC54B98820D3C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CAltKit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/CAltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BA2B575E01B346E7A86A7309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C7B92D5E80B549E6B686DB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CF5BA88CB61540B98A4D735E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D9B9FDBA41274C8F91D460AA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E2198714CFD54798BB428888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ED70620B0109465EBA8707A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = ("-Osize -swift-version 5.0 ","$(inherited)");
+				PRODUCT_NAME = AltKit;
+				SECTORDER_FLAGS = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = ("$(inherited)");
+				SWIFT_INCLUDE_PATHS = "/Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit";
+				SWIFT_VERSION = 5.0;
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/AltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F249FEE6AB9947828A448DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F2C5D15123AA4587A0E61231 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CAltKit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/CAltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F977B9850A6C4B7989B1B733 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/shell/apple/emulator-ios/AltKit/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = ("      -swift-version 5.0 ","$(inherited)");
+				PRODUCT_NAME = AltKit;
+				SECTORDER_FLAGS = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = ("$(inherited)");
+				SWIFT_INCLUDE_PATHS = "/Users/alexmatos/flycast/shell/apple/emulator-ios/AltKit/Sources/CAltKit";
+				SWIFT_VERSION = 5.0;
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/AltKit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FFCC1E24FE64979982AA853 /* Build configuration list for PBXNativeTarget "CAltKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B482C92CCDC54B98820D3C40 /* Debug */,
+				938AFA6A09DE41D6A04A605C /* Release */,
+				F2C5D15123AA4587A0E61231 /* MinSizeRel */,
+				8C0FD6F80BF54FF1958FB55E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36A402B4AF9C4D44B26D69C4 /* Build configuration list for PBXNativeTarget "AltKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2176633110CA4875B5844C34 /* Debug */,
+				21BD2FCB67CF4EAB928C1F13 /* Release */,
+				ED70620B0109465EBA8707A2 /* MinSizeRel */,
+				F977B9850A6C4B7989B1B733 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D7CFE8E82CD43F3B3B1B092 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B575E01B346E7A86A7309 /* Debug */,
+				C7B92D5E80B549E6B686DB00 /* Release */,
+				D9B9FDBA41274C8F91D460AA /* MinSizeRel */,
+				32236A2910CB49949FE52355 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78E9F1006E5047E188028A38 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17B832E740A4DC28FB09A03 /* Debug */,
+				F249FEE6AB9947828A448DD7 /* Release */,
+				6D0C3EDBF9F1474DAD5948D3 /* MinSizeRel */,
+				457E8645EC2F43C9993B4EE7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9234D8D304214A5985BDD3FC /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B21467EBC147B8A7932B8B /* Debug */,
+				B277DAD90A564BD5A7E4EA06 /* Release */,
+				61B08AE0BA724E3A93BF0FE1 /* MinSizeRel */,
+				CF5BA88CB61540B98A4D735E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BE3531AFC32465E8D01B785 /* Build configuration list for PBXProject "AltKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3746D35A6839400F9D070DE7 /* Debug */,
+				5DAF6733FFB1454295BE660A /* Release */,
+				35B32094FD654C8F8C31A39F /* MinSizeRel */,
+				132E94255CFA465EB0C0B6B4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E50C9EF7521546AFAC462897 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2198714CFD54798BB428888 /* Debug */,
+				1AC72B557E4C429FA6C297FD /* Release */,
+				667B783F512A4D6891A38974 /* MinSizeRel */,
+				AD1BB31312784080860E66F2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDBD9084A9C49FFADA2BA3B /* Project object */;
+}
