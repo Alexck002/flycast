@@ -54,4 +54,10 @@ bool region_lock(void *start, std::size_t len);
 bool region_unlock(void *start, std::size_t len);
 bool region_set_exec(void *start, std::size_t len);
 
+#ifdef TARGET_IPHONE
+// Toggle write protection on JIT pages using the mechanism appropriate for
+// the active iOS JIT strategy (TXM dual-map / MAP_JIT pthread / legacy mprotect).
+void ios_jit_write_protect(void *base, std::size_t len, bool enable);
+#endif
+
 } // namespace vmem

@@ -21,6 +21,7 @@
 //  Created by Lounge Katt on 8/25/15.
 //
 #import "PadViewController.h"
+#import <GameController/GameController.h>
 #include "ios_gamepad.h"
 #include "cfg/cfg.h"
 #include "ui/vgamepad.h"
@@ -47,6 +48,9 @@
 
 - (void)showController:(UIView *)parentView
 {
+	// Defensive: never show the touch overlay while a physical controller is attached.
+	if (IOSGamepad::controllerConnected())
+		return;
 	if (!config::loadBool("help", "PauseGameTip", false))
 	{
 		UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Help Tip"
@@ -67,6 +71,12 @@
 {
 	[self resetAnalog];
 	[hideTimer invalidate];
+	hideTimer = nil;
+	// Removing the UIView stops touch input, but the drawn vgamepad overlay
+	// is rendered separately via vgamepad::draw() and stays visible until
+	// vgamepad::Visible is cleared. startHideTimer set it to true and
+	// invalidating the timer leaves it true, so hide it explicitly here.
+	vgamepad::hide();
 	[self.view removeFromSuperview];
 }
 

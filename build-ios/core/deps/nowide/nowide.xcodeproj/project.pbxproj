@@ -9,44 +9,44 @@
 /* Begin PBXAggregateTarget section */
 		16BFDBBCC061913F1CADEF4A /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 372BABDD9A704F208B21A107 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 5208B61A4A844BE283B9E9E1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				B4AB765401EA19BD65184B74 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				3AB42A369DB445FC8E0512AA /* PBXTargetDependency */,
-				7CE00C31F3E64CEC88B2C42F /* PBXTargetDependency */,
+				5E76A2E3367D48BDA2F618F9 /* PBXTargetDependency */,
+				928FA3017CDC41A097CB21B4 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		2F6E340B880F8019E67E84A3 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1F96DCA1B7F444E1A5E027EF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = A7671167922744FEAD807B47 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				736674B14EB747ADA31AF606 /* PBXTargetDependency */,
+				285C26BBEE8D407AB6A11F75 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		682A2F1F20D8339B84A3D770 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4836C839904C43ABB641C6CD /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = E065E88FB37D41D3B840DD51 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				3AA406A9536349918EDFFD6C /* PBXTargetDependency */,
+				89C9F09F851C473ABA8E0F78 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		B0B29501EBEC1C234713D131 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E759FE00F0804238902FA813 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 3501AF8EBD0D4ACFB2E41C7D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				399AD1D61EBDD0C3CFA9DB1F /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -58,142 +58,142 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0187A57B73064FA8922526DA /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */ = {isa = PBXBuildFile; fileRef = B275AAA9101941B986E1CA93 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */; };
-		2C83832C64F549D68F3185E1 /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 91AB47962E9843ED8C27298D /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */; };
-		325787FEA46C4B099D6F59F1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */ = {isa = PBXBuildFile; fileRef = 47175641900648F6AFDD48CC /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */; };
-		34AD3EEBD67D4EC9944E6298 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */ = {isa = PBXBuildFile; fileRef = B7C9DD32F2B94E599D463371 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */; };
-		38A794CC0ACA479580B2F1C1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */ = {isa = PBXBuildFile; fileRef = 50B200BDDA88430793F533FE /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */; };
-		3E095C5B52A74D49A8B2C770 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */ = {isa = PBXBuildFile; fileRef = 6A6D65F043B24707AFA00D5C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */; };
-		42A5244635924298BA4F585E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */ = {isa = PBXBuildFile; fileRef = 315A3546DF9F462FA74A200E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */; };
-		44CA9793B2AC471E947083D5 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */ = {isa = PBXBuildFile; fileRef = 6F5CE776DA4F479A8B4F6FC3 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */; };
-		4B15A0BB236D4E7DA99D1830 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */ = {isa = PBXBuildFile; fileRef = 5B81E1B62FBD4A12A277DB1F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */; };
-		67AF3519AC98437E85E1103F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */ = {isa = PBXBuildFile; fileRef = 41C9EB4A68DD42158B51B514 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */; };
-		6806483940A9497BBAEB5DC2 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */ = {isa = PBXBuildFile; fileRef = 79F73DB3243D4005B9D7B763 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */; };
-		6A47BEE536AA42358A31C2F7 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */ = {isa = PBXBuildFile; fileRef = 2650B819D7AA4D1DB6C703DE /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */; };
-		6AAD83703AC54EA78AE62317 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */ = {isa = PBXBuildFile; fileRef = 9F1F69C0E77347398E7B6097 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */; };
-		6E4C3D8169B84167ACE07C7E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */ = {isa = PBXBuildFile; fileRef = 71D9E355976041E094928DA6 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */; };
-		86280EEF100A4269AEA0EE9C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */ = {isa = PBXBuildFile; fileRef = 98B1D81D4D504637A9890EE1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */; };
-		99691EBC54304101925EC82C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */ = {isa = PBXBuildFile; fileRef = 776B604D553A423187224395 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */; };
-		9DF4E5CA3D77453E9471BB58 /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */ = {isa = PBXBuildFile; fileRef = C34E9DE8955F495D9948606C /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */; };
-		A1095820DB6A4152A5BDF1F0 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */ = {isa = PBXBuildFile; fileRef = 423E8C12071D46CDA5B57F47 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */; };
-		AA518E2931294048A0FA88C4 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */ = {isa = PBXBuildFile; fileRef = 4345FDA20CC3439BA8BD823F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */; };
-		B5DC2E6A2F954BF9A8CD78F9 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */ = {isa = PBXBuildFile; fileRef = 7264352684A84AF4A0369608 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */; };
-		C45F9537931D4516951681C2 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */ = {isa = PBXBuildFile; fileRef = FE9245B758434ED39AB67084 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */; };
-		D58360982AE4459A8156C5CF /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */ = {isa = PBXBuildFile; fileRef = 11391B225E3A411FB710357F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */; };
-		D9C68096AF0F430689945945 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */ = {isa = PBXBuildFile; fileRef = 3980F251CF834397B8169AD8 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */; };
-		DC97EF7C4AD44A7A9D6B450D /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 6359C1CDC2034899BBF2A3B9 /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */; };
-		F0AD58ADB43C46FF8F9C8106 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */ = {isa = PBXBuildFile; fileRef = 1ED68B4449EF4139928E6FB2 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */; };
-		F46EBF6E8C6A487A854312B4 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */ = {isa = PBXBuildFile; fileRef = 2590478B9DB747179834687C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */; };
-		F664748DDD56471CB371A89B /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */ = {isa = PBXBuildFile; fileRef = E5CBFAD5F5F64B118E6AE660 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */; };
-		F6D96043C2A14FFE8E045642 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */ = {isa = PBXBuildFile; fileRef = 8BA8A52363CA449DACBAFB10 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */; };
-		F7EF24A051AD4B8AB0A5C54F /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */ = {isa = PBXBuildFile; fileRef = DAD4BFD646844696A89C6383 /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */; };
+		0E5B94485FE745DAA7B60A44 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */ = {isa = PBXBuildFile; fileRef = 3A8E60D634F84D34912C00EF /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */; };
+		1AC66AA0E65A43A0B056F9DB /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */ = {isa = PBXBuildFile; fileRef = CF977C5F0510464A8AF55DDE /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */; };
+		1EC8D886469A46158E20DB37 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */ = {isa = PBXBuildFile; fileRef = FAA60B0B3E4A4B5B81A6861A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */; };
+		22163897A0F3456F80F24167 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */ = {isa = PBXBuildFile; fileRef = D9698FC435464F2CBBE79935 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */; };
+		29CDB23668C2497088B52CBE /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = EDBCB8008D7F4DD7BC3F90E3 /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */; };
+		2E653356D17842F980BD0343 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */ = {isa = PBXBuildFile; fileRef = 8542EBEEAA754C3F816C64F6 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */; };
+		304E81153D3947C7A366557E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */ = {isa = PBXBuildFile; fileRef = A234EC23938B4804BA0BE46C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */; };
+		334266C08B7F4AA1BE5FE8AB /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */ = {isa = PBXBuildFile; fileRef = A317AA2EC45048F682FD5EB2 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */; };
+		3943A890AF384CC88DF0B489 /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */ = {isa = PBXBuildFile; fileRef = 9E4EF2E862554243B6ED8475 /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */; };
+		3F4D016B1559472BAE74D7FB /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */ = {isa = PBXBuildFile; fileRef = F93A710F043844A2AEB63EAB /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */; };
+		4A2BB28B9DCD424798019FBD /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */ = {isa = PBXBuildFile; fileRef = 8A3D79CBF6AE4A8582E966C7 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */; };
+		4DC080AEF9B84BA9B30996C3 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */ = {isa = PBXBuildFile; fileRef = 4C104ABDA3CB4572A5888AE9 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */; };
+		4F1B2C16D9E94FDC9AE03276 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */ = {isa = PBXBuildFile; fileRef = 06E5703B153449519F57B33A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */; };
+		5718F47C29D14FBFBE3B86FE /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */ = {isa = PBXBuildFile; fileRef = 4DFCF82645164DA08F3B32E8 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */; };
+		67E9F0ADE6444C25819465E0 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */ = {isa = PBXBuildFile; fileRef = 7872E659A0604EC4AABC278A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */; };
+		70D1636EAABB4B76BC21CF29 /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1266A00340AD46FC8BCA295E /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */; };
+		84D804AE5B2D4739A86F7838 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */ = {isa = PBXBuildFile; fileRef = E258F2437C434D3BAB625DBC /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */; };
+		9835B876D5F5496BAF27CA2B /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */ = {isa = PBXBuildFile; fileRef = 6A08061ED8214075B8C7507D /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */; };
+		A4B67964C11C410697A7E9BF /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */ = {isa = PBXBuildFile; fileRef = 583B056D827340EEA71CE193 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */; };
+		B214C8F06BB04BCD9A4C3A70 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */ = {isa = PBXBuildFile; fileRef = F1EB7581435F4C86839736D1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */; };
+		C04D0B76BF5E41CFBDDB7953 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */ = {isa = PBXBuildFile; fileRef = CE71ECF74CCA40E4B6F2C9E4 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */; };
+		C3DBE2271AFA4E2A909CAE8E /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */ = {isa = PBXBuildFile; fileRef = BE36566F7E094E2885BD3EBA /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */; };
+		C9FD75E3BEE4436F89D15E7E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */ = {isa = PBXBuildFile; fileRef = 07B925A97ADB4FAEA4EADB28 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */; };
+		CB8319D44AE04D76BCDE2451 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */ = {isa = PBXBuildFile; fileRef = 69A4EA3330614240BE1B8C5F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */; };
+		CC9DE8C0003E4A1E88966EF1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */ = {isa = PBXBuildFile; fileRef = 10C5BB4D224440C39A4C2C1E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */; };
+		EA68B0D9241E43FF9C4886B3 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */ = {isa = PBXBuildFile; fileRef = 2304FE50CA744BE28B9632D4 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */; };
+		F1631181FCF04C3EBCE6021E /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */ = {isa = PBXBuildFile; fileRef = E5242605C31440BF8BBF8EF4 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */; };
+		F5C50616386C4EC9B4F08A81 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */ = {isa = PBXBuildFile; fileRef = A45E6EB37947436C81C7989A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */; };
+		FF4155EB0C404A1A98DCA390 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */ = {isa = PBXBuildFile; fileRef = 35E0300794874906AF0A3AC5 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		241EF10C46A94F8A87ED77E8 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		5F328F25C0A748E7A41C0117 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		950527F758E849BB93742FA4 /* MinSizeRel */ = {
+		5C41FEF5E2304CDD8E00E06B /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		CCB3A77E37CC459A8EEA936B /* Debug */ = {
+		ADDB93D760F845EE89964A0C /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		E377EE23E0634BCB8B9C80CB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F63CDB3C6C59423B8AA20CD3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		316901820AB44A459CF344EB /* PBXContainerItemProxy */ = {
+		230AE93C48A642C39C552132 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAB4D9C69E1F4E3485D5475B /* Project object */;
+			containerPortal = 4E71BE00A58D42D9BC0F59DC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B0B29501EBEC1C234713D131;
 			remoteInfo = ZERO_CHECK;
 		};
-		383B13215B5447F1B3AAA0BD /* PBXContainerItemProxy */ = {
+		29E87B9453EE40BDA5C56FC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAB4D9C69E1F4E3485D5475B /* Project object */;
+			containerPortal = 4E71BE00A58D42D9BC0F59DC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
 			remoteInfo = ALL_BUILD;
 		};
-		81755B5026BB4CB5B6AA0A63 /* PBXContainerItemProxy */ = {
+		38503121158643BC90A6C593 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAB4D9C69E1F4E3485D5475B /* Project object */;
+			containerPortal = 4E71BE00A58D42D9BC0F59DC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
-			remoteInfo = ALL_BUILD;
+			remoteGlobalIDString = B0B29501EBEC1C234713D131;
+			remoteInfo = ZERO_CHECK;
 		};
-		C49DE0CD1C0E4E05B5D0CE93 /* PBXContainerItemProxy */ = {
+		4916F94A30FD4564A860FB50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAB4D9C69E1F4E3485D5475B /* Project object */;
+			containerPortal = 4E71BE00A58D42D9BC0F59DC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B752C9C7BC3D5683D01E5833;
 			remoteInfo = nowide;
 		};
-		F27204C1DD6D46B2B3A59C4B /* PBXContainerItemProxy */ = {
+		951460725B8149B18B34507C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAB4D9C69E1F4E3485D5475B /* Project object */;
+			containerPortal = 4E71BE00A58D42D9BC0F59DC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B0B29501EBEC1C234713D131;
-			remoteInfo = ZERO_CHECK;
+			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
+			remoteInfo = ALL_BUILD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11391B225E3A411FB710357F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convert.hpp; path = include/nowide/detail/convert.hpp; sourceTree = SOURCE_ROOT; };
-		1ED68B4449EF4139928E6FB2 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iostream.hpp; path = include/nowide/iostream.hpp; sourceTree = SOURCE_ROOT; };
-		2590478B9DB747179834687C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cstdlib.hpp; path = include/nowide/cstdlib.hpp; sourceTree = SOURCE_ROOT; };
-		2650B819D7AA4D1DB6C703DE /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cstdio.cpp; path = src/cstdio.cpp; sourceTree = SOURCE_ROOT; };
-		315A3546DF9F462FA74A200E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stat.hpp; path = include/nowide/stat.hpp; sourceTree = SOURCE_ROOT; };
-		3980F251CF834397B8169AD8 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stackstring.hpp; path = include/nowide/stackstring.hpp; sourceTree = SOURCE_ROOT; };
-		41C9EB4A68DD42158B51B514 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utf.hpp; path = include/nowide/detail/utf.hpp; sourceTree = SOURCE_ROOT; };
-		423E8C12071D46CDA5B57F47 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filebuf.hpp; path = include/nowide/filebuf.hpp; sourceTree = SOURCE_ROOT; };
-		4345FDA20CC3439BA8BD823F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = replacement.hpp; path = include/nowide/replacement.hpp; sourceTree = SOURCE_ROOT; };
-		47175641900648F6AFDD48CC /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = is_string_container.hpp; path = include/nowide/detail/is_string_container.hpp; sourceTree = SOURCE_ROOT; };
-		50B200BDDA88430793F533FE /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fstream.hpp; path = include/nowide/fstream.hpp; sourceTree = SOURCE_ROOT; };
-		5B81E1B62FBD4A12A277DB1F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quoted.hpp; path = include/nowide/quoted.hpp; sourceTree = SOURCE_ROOT; };
-		6359C1CDC2034899BBF2A3B9 /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist"; sourceTree = "<absolute>"; };
-		6A6D65F043B24707AFA00D5C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convert.hpp; path = include/nowide/convert.hpp; sourceTree = SOURCE_ROOT; };
-		6F5CE776DA4F479A8B4F6FC3 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = config.hpp; path = include/nowide/config.hpp; sourceTree = SOURCE_ROOT; };
-		71D9E355976041E094928DA6 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cstdio.hpp; path = include/nowide/cstdio.hpp; sourceTree = SOURCE_ROOT; };
-		7264352684A84AF4A0369608 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = console_buffer.cpp; path = src/console_buffer.cpp; sourceTree = SOURCE_ROOT; };
-		776B604D553A423187224395 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = windows.hpp; path = include/nowide/windows.hpp; sourceTree = SOURCE_ROOT; };
-		79F73DB3243D4005B9D7B763 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stat.cpp; path = src/stat.cpp; sourceTree = SOURCE_ROOT; };
-		8BA8A52363CA449DACBAFB10 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = is_path.hpp; path = include/nowide/detail/is_path.hpp; sourceTree = SOURCE_ROOT; };
-		8BA9E3C03E6145C3B41FCDBB /* nowide */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libnowide.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		915E65263A0A4B2EBE01C1C7 /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		91AB47962E9843ED8C27298D /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		98B1D81D4D504637A9890EE1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convert.hpp; path = include/nowide/utf/convert.hpp; sourceTree = SOURCE_ROOT; };
-		9F1F69C0E77347398E7B6097 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = args.hpp; path = include/nowide/args.hpp; sourceTree = SOURCE_ROOT; };
-		B275AAA9101941B986E1CA93 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utf8_codecvt.hpp; path = include/nowide/utf8_codecvt.hpp; sourceTree = SOURCE_ROOT; };
-		B7C9DD32F2B94E599D463371 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cstdlib.cpp; path = src/cstdlib.cpp; sourceTree = SOURCE_ROOT; };
-		C34E9DE8955F495D9948606C /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filebuf.cpp; path = src/filebuf.cpp; sourceTree = SOURCE_ROOT; };
-		DAD4BFD646844696A89C6383 /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iostream.cpp; path = src/iostream.cpp; sourceTree = SOURCE_ROOT; };
-		E5CBFAD5F5F64B118E6AE660 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utf.hpp; path = include/nowide/utf/utf.hpp; sourceTree = SOURCE_ROOT; };
-		FE9245B758434ED39AB67084 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filesystem.hpp; path = include/nowide/filesystem.hpp; sourceTree = SOURCE_ROOT; };
+		06E5703B153449519F57B33A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = config.hpp; path = include/nowide/config.hpp; sourceTree = SOURCE_ROOT; };
+		07B925A97ADB4FAEA4EADB28 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cstdio.hpp; path = include/nowide/cstdio.hpp; sourceTree = SOURCE_ROOT; };
+		10C5BB4D224440C39A4C2C1E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convert.hpp; path = include/nowide/convert.hpp; sourceTree = SOURCE_ROOT; };
+		1266A00340AD46FC8BCA295E /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2304FE50CA744BE28B9632D4 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = console_buffer.cpp; path = src/console_buffer.cpp; sourceTree = SOURCE_ROOT; };
+		35E0300794874906AF0A3AC5 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cstdlib.cpp; path = src/cstdlib.cpp; sourceTree = SOURCE_ROOT; };
+		3A8E60D634F84D34912C00EF /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fstream.hpp; path = include/nowide/fstream.hpp; sourceTree = SOURCE_ROOT; };
+		4C104ABDA3CB4572A5888AE9 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = is_string_container.hpp; path = include/nowide/detail/is_string_container.hpp; sourceTree = SOURCE_ROOT; };
+		4DFCF82645164DA08F3B32E8 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utf.hpp; path = include/nowide/detail/utf.hpp; sourceTree = SOURCE_ROOT; };
+		51BDDD54DF9B477A9FAF60AB /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		583B056D827340EEA71CE193 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = replacement.hpp; path = include/nowide/replacement.hpp; sourceTree = SOURCE_ROOT; };
+		69A4EA3330614240BE1B8C5F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = is_path.hpp; path = include/nowide/detail/is_path.hpp; sourceTree = SOURCE_ROOT; };
+		6A08061ED8214075B8C7507D /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iostream.cpp; path = src/iostream.cpp; sourceTree = SOURCE_ROOT; };
+		7872E659A0604EC4AABC278A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iostream.hpp; path = include/nowide/iostream.hpp; sourceTree = SOURCE_ROOT; };
+		8542EBEEAA754C3F816C64F6 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filesystem.hpp; path = include/nowide/filesystem.hpp; sourceTree = SOURCE_ROOT; };
+		8A3D79CBF6AE4A8582E966C7 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convert.hpp; path = include/nowide/utf/convert.hpp; sourceTree = SOURCE_ROOT; };
+		9E4EF2E862554243B6ED8475 /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filebuf.cpp; path = src/filebuf.cpp; sourceTree = SOURCE_ROOT; };
+		A234EC23938B4804BA0BE46C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convert.hpp; path = include/nowide/detail/convert.hpp; sourceTree = SOURCE_ROOT; };
+		A317AA2EC45048F682FD5EB2 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utf.hpp; path = include/nowide/utf/utf.hpp; sourceTree = SOURCE_ROOT; };
+		A3BCB4B488474FF697C31A14 /* nowide */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libnowide.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45E6EB37947436C81C7989A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cstdlib.hpp; path = include/nowide/cstdlib.hpp; sourceTree = SOURCE_ROOT; };
+		BE36566F7E094E2885BD3EBA /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cstdio.cpp; path = src/cstdio.cpp; sourceTree = SOURCE_ROOT; };
+		CE71ECF74CCA40E4B6F2C9E4 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utf8_codecvt.hpp; path = include/nowide/utf8_codecvt.hpp; sourceTree = SOURCE_ROOT; };
+		CF977C5F0510464A8AF55DDE /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filebuf.hpp; path = include/nowide/filebuf.hpp; sourceTree = SOURCE_ROOT; };
+		D9698FC435464F2CBBE79935 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = args.hpp; path = include/nowide/args.hpp; sourceTree = SOURCE_ROOT; };
+		E258F2437C434D3BAB625DBC /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quoted.hpp; path = include/nowide/quoted.hpp; sourceTree = SOURCE_ROOT; };
+		E5242605C31440BF8BBF8EF4 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stat.cpp; path = src/stat.cpp; sourceTree = SOURCE_ROOT; };
+		EDBCB8008D7F4DD7BC3F90E3 /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist"; sourceTree = "<absolute>"; };
+		F1EB7581435F4C86839736D1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stat.hpp; path = include/nowide/stat.hpp; sourceTree = SOURCE_ROOT; };
+		F93A710F043844A2AEB63EAB /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = windows.hpp; path = include/nowide/windows.hpp; sourceTree = SOURCE_ROOT; };
+		FAA60B0B3E4A4B5B81A6861A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stackstring.hpp; path = include/nowide/stackstring.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D756B440C0C4F12A737DE51 /* Frameworks */ = {
+		0C6578FC9A86436C99D0464E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,113 +203,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A6FA55D00574D949D3E7CA2 /* Resources */ = {
+		129D460195CA458FBF97AEB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6359C1CDC2034899BBF2A3B9 /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */,
 			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0E89B03CA70C4F98B664FD1B = {
+		26902BC30803488983C9EBBC /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				BFD134775C174777924451FA /* ALL_BUILD */,
-				DC543FB1032845C69E1B7BFF /* nowide */,
-				B88020C26E7548119C567D3B /* Products */,
-				E0C571850A724849A6DABF26 /* Frameworks */,
-				BB4674D892C545BC88B51A08 /* Resources */,
+				4629B2F9795546338E9ECC96 /* CMake Rules */,
+				51BDDD54DF9B477A9FAF60AB /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */,
 			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		1C75080AAE994614A9381502 /* Source Files */ = {
+		2C4CDAED56CB499791921EB7 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				7264352684A84AF4A0369608 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */,
-				2650B819D7AA4D1DB6C703DE /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */,
-				B7C9DD32F2B94E599D463371 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */,
-				C34E9DE8955F495D9948606C /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */,
-				DAD4BFD646844696A89C6383 /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */,
-				79F73DB3243D4005B9D7B763 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */,
+				D9698FC435464F2CBBE79935 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */,
+				06E5703B153449519F57B33A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */,
+				10C5BB4D224440C39A4C2C1E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */,
+				07B925A97ADB4FAEA4EADB28 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */,
+				A45E6EB37947436C81C7989A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */,
+				A234EC23938B4804BA0BE46C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */,
+				69A4EA3330614240BE1B8C5F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */,
+				4C104ABDA3CB4572A5888AE9 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */,
+				4DFCF82645164DA08F3B32E8 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */,
+				CF977C5F0510464A8AF55DDE /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */,
+				8542EBEEAA754C3F816C64F6 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */,
+				3A8E60D634F84D34912C00EF /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */,
+				7872E659A0604EC4AABC278A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */,
+				E258F2437C434D3BAB625DBC /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */,
+				583B056D827340EEA71CE193 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */,
+				FAA60B0B3E4A4B5B81A6861A /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */,
+				F1EB7581435F4C86839736D1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */,
+				8A3D79CBF6AE4A8582E966C7 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */,
+				A317AA2EC45048F682FD5EB2 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */,
+				CE71ECF74CCA40E4B6F2C9E4 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */,
+				F93A710F043844A2AEB63EAB /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */,
 			);
-			name = "Source Files";
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		4362EC5A01704096AF80E52A /* CMake Rules */ = {
+		4629B2F9795546338E9ECC96 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		91704E03457E405A84BC61AD /* Header Files */ = {
+		550BEFA4739C4C0FAD657990 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				9F1F69C0E77347398E7B6097 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/args.hpp */,
-				6F5CE776DA4F479A8B4F6FC3 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/config.hpp */,
-				6A6D65F043B24707AFA00D5C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/convert.hpp */,
-				71D9E355976041E094928DA6 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdio.hpp */,
-				2590478B9DB747179834687C /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/cstdlib.hpp */,
-				11391B225E3A411FB710357F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/convert.hpp */,
-				8BA8A52363CA449DACBAFB10 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_path.hpp */,
-				47175641900648F6AFDD48CC /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/is_string_container.hpp */,
-				41C9EB4A68DD42158B51B514 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/detail/utf.hpp */,
-				423E8C12071D46CDA5B57F47 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filebuf.hpp */,
-				FE9245B758434ED39AB67084 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/filesystem.hpp */,
-				50B200BDDA88430793F533FE /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/fstream.hpp */,
-				1ED68B4449EF4139928E6FB2 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/iostream.hpp */,
-				5B81E1B62FBD4A12A277DB1F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/quoted.hpp */,
-				4345FDA20CC3439BA8BD823F /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/replacement.hpp */,
-				3980F251CF834397B8169AD8 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stackstring.hpp */,
-				315A3546DF9F462FA74A200E /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/stat.hpp */,
-				98B1D81D4D504637A9890EE1 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/convert.hpp */,
-				E5CBFAD5F5F64B118E6AE660 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf/utf.hpp */,
-				B275AAA9101941B986E1CA93 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/utf8_codecvt.hpp */,
-				776B604D553A423187224395 /* /Users/alexmatos/flycast/core/deps/nowide/include/nowide/windows.hpp */,
+				2304FE50CA744BE28B9632D4 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */,
+				BE36566F7E094E2885BD3EBA /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */,
+				35E0300794874906AF0A3AC5 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */,
+				9E4EF2E862554243B6ED8475 /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */,
+				6A08061ED8214075B8C7507D /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */,
+				E5242605C31440BF8BBF8EF4 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */,
 			);
-			name = "Header Files";
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		B88020C26E7548119C567D3B /* Products */ = {
+		55FA7FF8197C48CD89C103DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BA9E3C03E6145C3B41FCDBB /* nowide */,
+				A3BCB4B488474FF697C31A14 /* nowide */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB4674D892C545BC88B51A08 /* Resources */ = {
+		7F1AB73DC1004215A5BD0933 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BFD134775C174777924451FA /* ALL_BUILD */ = {
+		85E58B5763A24EB0A7131D76 /* nowide */ = {
 			isa = PBXGroup;
 			children = (
-				4362EC5A01704096AF80E52A /* CMake Rules */,
-				915E65263A0A4B2EBE01C1C7 /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		DC543FB1032845C69E1B7BFF /* nowide */ = {
-			isa = PBXGroup;
-			children = (
-				91704E03457E405A84BC61AD /* Header Files */,
-				0A6FA55D00574D949D3E7CA2 /* Resources */,
-				1C75080AAE994614A9381502 /* Source Files */,
-				91AB47962E9843ED8C27298D /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */,
+				2C4CDAED56CB499791921EB7 /* Header Files */,
+				A3F13F1C62F34B40AF52AE2E /* Resources */,
+				550BEFA4739C4C0FAD657990 /* Source Files */,
+				1266A00340AD46FC8BCA295E /* /Users/alexmatos/flycast/core/deps/nowide/CMakeLists.txt */,
 			);
 			name = nowide;
 			sourceTree = "<group>";
 		};
-		E0C571850A724849A6DABF26 /* Frameworks */ = {
+		A3F13F1C62F34B40AF52AE2E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EDBCB8008D7F4DD7BC3F90E3 /* /Users/alexmatos/flycast/build-ios/core/deps/nowide/CMakeFiles/nowide.dir/Info.plist */,
 			);
-			name = Frameworks;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EBD266B564C24DF8A770B6A6 = {
+			isa = PBXGroup;
+			children = (
+				26902BC30803488983C9EBBC /* ALL_BUILD */,
+				85E58B5763A24EB0A7131D76 /* nowide */,
+				55FA7FF8197C48CD89C103DA /* Products */,
+				129D460195CA458FBF97AEB2 /* Frameworks */,
+				7F1AB73DC1004215A5BD0933 /* Resources */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,42 +317,42 @@
 /* Begin PBXNativeTarget section */
 		B752C9C7BC3D5683D01E5833 /* nowide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E31E1E4F8404582B50E97F2 /* Build configuration list for PBXNativeTarget "nowide" */;
+			buildConfigurationList = A64D32E9CB704A2FB7D3C177 /* Build configuration list for PBXNativeTarget "nowide" */;
 			buildPhases = (
-				95847D9987D340A59E39DF7D /* Sources */,
-				5D756B440C0C4F12A737DE51 /* Frameworks */,
+				463BD0F4316E43BDA775B3B0 /* Sources */,
+				0C6578FC9A86436C99D0464E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AFC868B773D94DBC9D1CFB01 /* PBXTargetDependency */,
+				998518687DB04381BA250CE4 /* PBXTargetDependency */,
 			);
 			name = nowide;
 			productName = nowide;
-			productReference = 8BA9E3C03E6145C3B41FCDBB /* nowide */;
+			productReference = A3BCB4B488474FF697C31A14 /* nowide */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FAB4D9C69E1F4E3485D5475B /* Project object */ = {
+		4E71BE00A58D42D9BC0F59DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1620;
 			};
-			buildConfigurationList = 78405CD0612D4D4EB07C8B98 /* Build configuration list for PBXProject "nowide" */;
+			buildConfigurationList = 903C0E374F174296A4174400 /* Build configuration list for PBXProject "nowide" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				CCB3A77E37CC459A8EEA936B /* Debug */,
-				5F328F25C0A748E7A41C0117 /* Release */,
-				950527F758E849BB93742FA4 /* MinSizeRel */,
-				241EF10C46A94F8A87ED77E8 /* RelWithDebInfo */,
+				ADDB93D760F845EE89964A0C /* Debug */,
+				E377EE23E0634BCB8B9C80CB /* Release */,
+				5C41FEF5E2304CDD8E00E06B /* MinSizeRel */,
+				F63CDB3C6C59423B8AA20CD3 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 0E89B03CA70C4F98B664FD1B;
+			mainGroup = EBD266B564C24DF8A770B6A6;
 			projectDirPath = /Users/alexmatos/flycast/core/deps/nowide;
 			projectRoot = "";
 			targets = (
@@ -561,63 +561,162 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		95847D9987D340A59E39DF7D /* Sources */ = {
+		463BD0F4316E43BDA775B3B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DC2E6A2F954BF9A8CD78F9 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */,
-				6A47BEE536AA42358A31C2F7 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */,
-				34AD3EEBD67D4EC9944E6298 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */,
-				9DF4E5CA3D77453E9471BB58 /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */,
-				F7EF24A051AD4B8AB0A5C54F /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */,
-				6806483940A9497BBAEB5DC2 /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */,
+				EA68B0D9241E43FF9C4886B3 /* /Users/alexmatos/flycast/core/deps/nowide/src/console_buffer.cpp */,
+				C3DBE2271AFA4E2A909CAE8E /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdio.cpp */,
+				FF4155EB0C404A1A98DCA390 /* /Users/alexmatos/flycast/core/deps/nowide/src/cstdlib.cpp */,
+				3943A890AF384CC88DF0B489 /* /Users/alexmatos/flycast/core/deps/nowide/src/filebuf.cpp */,
+				9835B876D5F5496BAF27CA2B /* /Users/alexmatos/flycast/core/deps/nowide/src/iostream.cpp */,
+				F1631181FCF04C3EBCE6021E /* /Users/alexmatos/flycast/core/deps/nowide/src/stat.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AA406A9536349918EDFFD6C /* PBXTargetDependency */ = {
+		285C26BBEE8D407AB6A11F75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 16BFDBBCC061913F1CADEF4A /* ALL_BUILD */;
-			targetProxy = 383B13215B5447F1B3AAA0BD /* PBXContainerItemProxy */;
+			targetProxy = 29E87B9453EE40BDA5C56FC5 /* PBXContainerItemProxy */;
 		};
-		3AB42A369DB445FC8E0512AA /* PBXTargetDependency */ = {
+		5E76A2E3367D48BDA2F618F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B752C9C7BC3D5683D01E5833 /* nowide */;
-			targetProxy = C49DE0CD1C0E4E05B5D0CE93 /* PBXContainerItemProxy */;
+			targetProxy = 4916F94A30FD4564A860FB50 /* PBXContainerItemProxy */;
 		};
-		736674B14EB747ADA31AF606 /* PBXTargetDependency */ = {
+		89C9F09F851C473ABA8E0F78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 16BFDBBCC061913F1CADEF4A /* ALL_BUILD */;
-			targetProxy = 81755B5026BB4CB5B6AA0A63 /* PBXContainerItemProxy */;
+			targetProxy = 951460725B8149B18B34507C /* PBXContainerItemProxy */;
 		};
-		7CE00C31F3E64CEC88B2C42F /* PBXTargetDependency */ = {
+		928FA3017CDC41A097CB21B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
-			targetProxy = F27204C1DD6D46B2B3A59C4B /* PBXContainerItemProxy */;
+			targetProxy = 38503121158643BC90A6C593 /* PBXContainerItemProxy */;
 		};
-		AFC868B773D94DBC9D1CFB01 /* PBXTargetDependency */ = {
+		998518687DB04381BA250CE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
-			targetProxy = 316901820AB44A459CF344EB /* PBXContainerItemProxy */;
+			targetProxy = 230AE93C48A642C39C552132 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10822D2158B24F7BA6203291 /* RelWithDebInfo */ = {
+		1A155C0B77474C5490219241 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		342824D9774B400798FEFBDA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		37ED36CE66C64EF18FA970A8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		13E25B06176F4A2EB07BEFF6 /* Debug */ = {
+		3A35C08F97CB45BB8FFD953D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = Debug;
+		};
+		565C8F79373B4A01BC9514E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		680707A49C9C4106BD410434 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6D7B0AFBC62C4058A0255C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -646,179 +745,19 @@ fi
 			};
 			name = Debug;
 		};
-		19D6E05F0C0F491098853F3C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		5C2FDC00539C45CB85B6625B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		5CA157AA92A041C897C5DA94 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		5EBB0A49DEAB4D53B26EF6DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		6269EEAFC7354DECA3EB6A54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		6E3C3D6AD50B459C98859C21 /* Release */ = {
+		6D7BCC41055841A28E002F41 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
 			};
-			name = Release;
-		};
-		7A2268DA004C42EA97FDF2D8 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = MinSizeRel;
 		};
-		8BD6BF248E3C49D28C35290B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		8FC7BC187EB4431A9D8E2CEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		A15950A192E049778653C8BF /* MinSizeRel */ = {
+		790C5543605040ED91984C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -836,9 +775,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		A413FB264D824D15A29357B6 /* MinSizeRel */ = {
+		7E79DF064F914280BF7B1F8D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -856,9 +795,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		AB890D91786F422A94BAF85E /* RelWithDebInfo */ = {
+		98CA0A686BFE4973A95C65A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -871,14 +810,14 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
-		B0E10075964C4DDA8BB0517D /* MinSizeRel */ = {
+		A7CD07318DFB4A3FAA711B63 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -907,87 +846,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		BCA204B0322D4423B5B34FCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		C29E559515CB45C19DD6BA15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		C4E3C70AD81D4FFF8116AF4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
-			};
-			name = Debug;
-		};
-		C8EDE41B7BD04D6E98DDF4F0 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/core/deps/nowide/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOWIDE_HAS_INIT_PRIORITY,NOWIDE_NO_LIB,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexmatos/flycast/core/deps/nowide/include,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = nowide;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/nowide.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		CF29A9B5885E45A08CF476B0 /* Release */ = {
+		AEF1D6EDD58C4F05A4B25F06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1007,39 +866,19 @@ fi
 			};
 			name = Release;
 		};
-		CFF93B786C3C4738BBE541DB /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		D53B7AB5F5FA4249AD0A95C5 /* MinSizeRel */ = {
+		AF235236F57B4C65B2888DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		E579B0F0481D43F4BD59E626 /* RelWithDebInfo */ = {
+		B4C323E79DF14B28AB38080C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1052,14 +891,14 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		F72C54493D804A6E861FB683 /* Release */ = {
+		B52934DA960E4F53960090B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1088,76 +927,237 @@ fi
 			};
 			name = Release;
 		};
+		B81A4844A4DA4A8B897A80CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B93A2353F2F64E7DB0F4C4ED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C2103BA6C23E40C6894D655D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CD50800842224C038727EE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CE07CC3A36814D1ABF88702D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/core/deps/nowide/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOWIDE_HAS_INIT_PRIORITY,NOWIDE_NO_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexmatos/flycast/core/deps/nowide/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nowide;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/nowide.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D4BD7F7D2DC54B19B6A64302 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E6EEC4DB62864D62B1956A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E92DCA9368004A2BA20C19DA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F96DCA1B7F444E1A5E027EF /* Build configuration list for PBXAggregateTarget "install" */ = {
+		3501AF8EBD0D4ACFB2E41C7D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCA204B0322D4423B5B34FCE /* Debug */,
-				8FC7BC187EB4431A9D8E2CEF /* Release */,
-				A413FB264D824D15A29357B6 /* MinSizeRel */,
-				E579B0F0481D43F4BD59E626 /* RelWithDebInfo */,
+				1A155C0B77474C5490219241 /* Debug */,
+				790C5543605040ED91984C56 /* Release */,
+				342824D9774B400798FEFBDA /* MinSizeRel */,
+				37ED36CE66C64EF18FA970A8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		372BABDD9A704F208B21A107 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		5208B61A4A844BE283B9E9E1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C2FDC00539C45CB85B6625B /* Debug */,
-				C29E559515CB45C19DD6BA15 /* Release */,
-				7A2268DA004C42EA97FDF2D8 /* MinSizeRel */,
-				19D6E05F0C0F491098853F3C /* RelWithDebInfo */,
+				E6EEC4DB62864D62B1956A73 /* Debug */,
+				CD50800842224C038727EE08 /* Release */,
+				E92DCA9368004A2BA20C19DA /* MinSizeRel */,
+				D4BD7F7D2DC54B19B6A64302 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4836C839904C43ABB641C6CD /* Build configuration list for PBXAggregateTarget "package" */ = {
+		903C0E374F174296A4174400 /* Build configuration list for PBXProject "nowide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BD6BF248E3C49D28C35290B /* Debug */,
-				CF29A9B5885E45A08CF476B0 /* Release */,
-				CFF93B786C3C4738BBE541DB /* MinSizeRel */,
-				AB890D91786F422A94BAF85E /* RelWithDebInfo */,
+				3A35C08F97CB45BB8FFD953D /* Debug */,
+				AF235236F57B4C65B2888DC2 /* Release */,
+				6D7BCC41055841A28E002F41 /* MinSizeRel */,
+				B93A2353F2F64E7DB0F4C4ED /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5E31E1E4F8404582B50E97F2 /* Build configuration list for PBXNativeTarget "nowide" */ = {
+		A64D32E9CB704A2FB7D3C177 /* Build configuration list for PBXNativeTarget "nowide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13E25B06176F4A2EB07BEFF6 /* Debug */,
-				F72C54493D804A6E861FB683 /* Release */,
-				B0E10075964C4DDA8BB0517D /* MinSizeRel */,
-				C8EDE41B7BD04D6E98DDF4F0 /* RelWithDebInfo */,
+				6D7B0AFBC62C4058A0255C24 /* Debug */,
+				B52934DA960E4F53960090B8 /* Release */,
+				A7CD07318DFB4A3FAA711B63 /* MinSizeRel */,
+				CE07CC3A36814D1ABF88702D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		78405CD0612D4D4EB07C8B98 /* Build configuration list for PBXProject "nowide" */ = {
+		A7671167922744FEAD807B47 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E3C70AD81D4FFF8116AF4B /* Debug */,
-				6E3C3D6AD50B459C98859C21 /* Release */,
-				D53B7AB5F5FA4249AD0A95C5 /* MinSizeRel */,
-				10822D2158B24F7BA6203291 /* RelWithDebInfo */,
+				565C8F79373B4A01BC9514E7 /* Debug */,
+				98CA0A686BFE4973A95C65A8 /* Release */,
+				C2103BA6C23E40C6894D655D /* MinSizeRel */,
+				7E79DF064F914280BF7B1F8D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E759FE00F0804238902FA813 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		E065E88FB37D41D3B840DD51 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EBB0A49DEAB4D53B26EF6DB /* Debug */,
-				6269EEAFC7354DECA3EB6A54 /* Release */,
-				A15950A192E049778653C8BF /* MinSizeRel */,
-				5CA157AA92A041C897C5DA94 /* RelWithDebInfo */,
+				B81A4844A4DA4A8B897A80CD /* Debug */,
+				AEF1D6EDD58C4F05A4B25F06 /* Release */,
+				680707A49C9C4106BD410434 /* MinSizeRel */,
+				B4C323E79DF14B28AB38080C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FAB4D9C69E1F4E3485D5475B /* Project object */;
+	rootObject = 4E71BE00A58D42D9BC0F59DC /* Project object */;
 }

@@ -78,10 +78,7 @@ static DynaCode *writeStoreQueue64;
 static void jitWriteProtect(Sh4CodeBuffer &codeBuffer, bool enable)
 {
 #ifdef TARGET_IPHONE
-    if (enable)
-    	virtmem::region_set_exec(codeBuffer.getBase(), codeBuffer.getSize());
-    else
-    	virtmem::region_unlock(codeBuffer.getBase(), codeBuffer.getSize());
+    virtmem::ios_jit_write_protect(codeBuffer.getBase(), codeBuffer.getSize(), enable);
 #else
     JITWriteProtect(enable);
 #endif

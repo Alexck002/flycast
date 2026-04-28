@@ -267,6 +267,18 @@ else()
 	add_executable(${PROJECT_NAME} core/emulator.cpp)
 endif()
 
+if(IOS AND NOT LIBRETRO)
+	target_sources(${PROJECT_NAME} PRIVATE
+		${CMAKE_CURRENT_SOURCE_DIR}/lwmem.c
+		${CMAKE_CURRENT_SOURCE_DIR}/lwmem_sys_apple.c
+		${CMAKE_CURRENT_SOURCE_DIR}/ios_jit_manager.m
+		${CMAKE_CURRENT_SOURCE_DIR}/ios_jit_manager.h)
+	target_include_directories(${PROJECT_NAME} PRIVATE
+		${CMAKE_CURRENT_SOURCE_DIR}/core/lwmem
+		${CMAKE_CURRENT_SOURCE_DIR}/core/lwmem/src/include/system
+		${CMAKE_CURRENT_SOURCE_DIR}/core/lwmem/src/include/lwmem)
+endif()
+
 set_target_properties(${PROJECT_NAME} PROPERTIES
 		CMAKE_CXX_STANDARD 20
 		CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -986,6 +998,13 @@ else()
 			core/linux/context.cpp
 			core/linux/posix_vmem.cpp
 			core/linux/unwind_info.cpp)
+	if(IOS AND NOT LIBRETRO)
+		target_sources(${PROJECT_NAME} PRIVATE
+				core/linux/vmem_legacy.cpp
+				core/linux/vmem_txm.cpp
+				core/linux/vmem_no_txm.cpp
+				core/linux/vmem_dispatch.cpp)
+	endif()
 	if(NINTENDO_SWITCH)
 		add_subdirectory(shell/switch)
 	endif()

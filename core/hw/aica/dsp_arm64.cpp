@@ -35,7 +35,21 @@ namespace dsp
 {
 
 constexpr size_t CodeSize = 4096 * 8;	//32 kb, 8 pages
-DECLARE_CODE_CACHE(DynCode, CodeSize)
+
+#if defined(_M_ARM64)
+static u8 *DynCode;
+#elif defined(__unix__) || defined(__SWITCH__)
+alignas(4096) static u8 DynCode[CodeSize] __attribute__((section(".text")));
+#elif defined(__APPLE__)
+#if defined(TARGET_IPHONE) || defined(TARGET_ARM_MAC)
+static u8 *DynCode;
+#else
+alignas(4096) static u8 DynCode[CodeSize] __attribute__((section("__TEXT, .text")));
+#endif
+#else
+#error "Unsupported platform for arm64 DSP dynarec"
+#endif
+
 static u8 *pCodeBuffer;
 static ptrdiff_t rx_offset;
 
@@ -44,10 +58,7 @@ static ptrdiff_t rx_offset;
 
 static void JITWriteProtect(bool enable)
 {
-    if (enable)
-    	virtmem::region_set_exec(pCodeBuffer, CodeSize);
-    else
-    	virtmem::region_unlock(pCodeBuffer, CodeSize);
+	virtmem::ios_jit_write_protect(pCodeBuffer, CodeSize, enable);
 }
 #endif
 
@@ -447,7 +458,7 @@ void recInit()
 	bool rc = virtmem::prepare_jit_block(DynCode, CodeSize, (void**)&pCodeBuffer);
 #endif
 	verify(rc);
-#if defined(TARGET_IPHONE) || defined(TARGET_ARM_MAC)
+#if defined(TARGET_IPHONE) || defined(TARGET_ARM_MAC) || defined(_M_ARM64)
 	DynCode = pCodeBuffer;
 #endif
 }
@@ -455,7 +466,7 @@ void recInit()
 
 void recTerm()
 {
-#if defined(TARGET_IPHONE) || defined(TARGET_ARM_MAC)
+#if defined(TARGET_IPHONE) || defined(TARGET_ARM_MAC) || defined(_M_ARM64)
 	DynCode = nullptr;
 #endif
 #ifdef FEAT_NO_RWX_PAGES

@@ -15,6 +15,7 @@
 #include "hw/mem/addrspace.h"
 #include "hw/sh4/sh4_if.h"
 #include "oslib/virtmem.h"
+#include "log/Log.h"
 
 #ifndef MAP_NOSYNC
 #define MAP_NOSYNC 0
@@ -245,6 +246,7 @@ void create_mappings(const Mapping *vmem_maps, unsigned nummaps) {
 	}
 }
 
+#ifndef TARGET_IPHONE
 // Prepares the code region for JIT operations, thus marking it as RWX
 bool prepare_jit_block(void *code_area, size_t size, void **code_area_rwx)
 {
@@ -323,6 +325,7 @@ void release_jit_block(void *code_area1, void *code_area2, size_t size)
 	// keep code_area1 (RX) mapped since it's statically allocated
 	munmap(code_area2, size);
 }
+#endif // !TARGET_IPHONE
 
 } // namespace virtmem
 
@@ -331,8 +334,24 @@ void release_jit_block(void *code_area1, void *code_area2, size_t size)
 namespace virtmem
 {
 
+#ifdef TARGET_IPHONE
+// Shared TXM pool descriptor - referenced by recompilers (rec_arm64.cpp etc.)
+// to detect whether the running device is using TXM dual-mapped JIT memory.
+// The actual TXM pool init lives in vmem_txm.cpp; this struct is purely a
+// status flag carrier used by JIT write-protect logic.
+struct TXMPoolInfo {
+    u8* rx_region = nullptr;
+    u8* rw_region = nullptr;
+    ptrdiff_t rw_rx_diff = 0;
+    bool initialized = false;
+    bool uses_txm = false;
+};
+
+TXMPoolInfo g_txm_pool;
+#else
 void jit_set_exec(void* code, size_t size, bool enable) {
 }
+#endif
 
 }
 

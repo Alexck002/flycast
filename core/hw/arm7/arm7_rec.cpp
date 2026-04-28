@@ -49,7 +49,11 @@ u8* icPtr;
 u8* ICache;
 void (*EntryPoints[ARAM_SIZE_MAX / 4])();
 
+#ifdef TARGET_IPHONE
+static u8 *ARM7_TCB;
+#else
 DECLARE_CODE_CACHE(ARM7_TCB, ICacheSize)
+#endif
 
 ptrdiff_t rx_offset;
 
@@ -663,7 +667,7 @@ void flush()
 
 void init()
 {
-#ifdef FEAT_NO_RWX_PAGES
+#if defined(FEAT_NO_RWX_PAGES) || defined(TARGET_IPHONE)
 	bool rc = virtmem::prepare_jit_block(ARM7_TCB, ICacheSize, (void**)&ICache, &rx_offset);
 #else
 	bool rc = virtmem::prepare_jit_block(ARM7_TCB, ICacheSize, (void**)&ICache);

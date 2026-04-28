@@ -1,72 +1,84 @@
-# Flycast
-
-[![Android CI](https://github.com/flyinghead/flycast/actions/workflows/android.yml/badge.svg)](https://github.com/flyinghead/flycast/actions/workflows/android.yml)
-[![C/C++ CI](https://github.com/flyinghead/flycast/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/flyinghead/flycast/actions/workflows/c-cpp.yml)
-[![Nintendo Switch CI](https://github.com/flyinghead/flycast/actions/workflows/switch.yml/badge.svg)](https://github.com/flyinghead/flycast/actions/workflows/switch.yml)
-[![Windows UWP CI](https://github.com/flyinghead/flycast/actions/workflows/uwp.yml/badge.svg)](https://github.com/flyinghead/flycast/actions/workflows/uwp.yml)
-[![BSD CI](https://github.com/flyinghead/flycast/actions/workflows/bsd.yml/badge.svg)](https://github.com/flyinghead/flycast/actions/workflows/bsd.yml)
+# Flycast iOS
 
 <img src="shell/linux/flycast.png" alt="flycast logo" width="150"/>
 
-**Flycast** is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from [**reicast**](https://github.com/skmp/reicast-emulator).
+iOS port of [Flycast](https://github.com/flyinghead/flycast) — a Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator with full ARM64 dynarec (JIT). Confirmed running at 60 FPS across iOS 14.6, 15.1, 18.2, and 26.3.
 
-Information about configuration and supported features can be found on [**TheArcadeStriker's flycast wiki**](https://github.com/TheArcadeStriker/flycast-wiki/wiki).
+The iOS-specific JIT and build work in this fork was developed with assistance from [Anthropic](https://www.anthropic.com/)'s **Claude** (via [Claude Code](https://claude.com/claude-code)).
 
-Join us on our [**Discord server**](https://discord.gg/X8YWP8w) for a chat. 
+## Compatibility
 
-## Install
+| iOS | Install method | JIT activation |
+|---|---|---|
+| 14.x – 15.x (jailbreak) | TrollStore | "Open with JIT" |
+| 16.x – 25.x | SideStore / AltStore | StikDebug |
+| 26.x | SideStore / AltStore | StikDebug |
 
-### Android ![android](https://flyinghead.github.io/flycast-builds/android.jpg)
-Install Flycast from [**Google Play**](https://play.google.com/store/apps/details?id=com.flycast.emulator).
-### Flatpak (Linux ![ubuntu logo](https://flyinghead.github.io/flycast-builds/ubuntu.png))
+iOS 14.0 minimum.
 
-1. [Set up Flatpak](https://www.flatpak.org/setup/).
+## Installation
 
-2. Install Flycast from [Flathub](https://flathub.org/apps/details/org.flycast.Flycast):
+### TrollStore (iOS 14 – 15.x)
+1. Download the latest `Flycast.ipa` from [Releases](../../releases).
+2. Open it with TrollStore and install.
+3. Long-press the Flycast icon → **Open with JIT**.
+4. Launch the app.
 
-`flatpak install -y org.flycast.Flycast`
+### SideStore / AltStore + StikDebug (iOS 16+, including iOS 26)
+1. Install [SideStore](https://sidestore.io) or [AltStore](https://altstore.io), and [StikDebug](https://github.com/0xilis/StikDebug).
+2. Sideload `Flycast.ipa`.
+3. In StikDebug, attach to Flycast to grant JIT.
+4. Launch the app.
 
-3. Run Flycast:
+If JIT isn't active when you start a game, Flycast will show a reminder.
 
-`flatpak run org.flycast.Flycast`
+## Building from source
 
-### Homebrew (MacOS ![apple logo](https://flyinghead.github.io/flycast-builds/apple.png))
+### Prerequisites
 
-1. [Set up Homebrew](https://brew.sh).
-
-2. Install Flycast via Homebrew:
-
-`brew install --cask flycast`
-
-### iOS
-
-Due to persistent harassment from an iOS user, support for this platform has been dropped. 
-
-### Xbox One/Series ![xbox logo](https://flyinghead.github.io/flycast-builds/xbox.png)
-
-Grab the latest build from [**the builds page**](https://flyinghead.github.io/flycast-builds/), or the [**GitHub Actions**](https://github.com/flyinghead/flycast/actions/workflows/uwp.yml). Then install it using the **Xbox Device Portal**.
-
-### Binaries ![android](https://flyinghead.github.io/flycast-builds/android.jpg) ![windows](https://flyinghead.github.io/flycast-builds/windows.png) ![linux](https://flyinghead.github.io/flycast-builds/ubuntu.png) ![apple](https://flyinghead.github.io/flycast-builds/apple.png) ![switch](https://flyinghead.github.io/flycast-builds/switch.png) ![xbox](https://flyinghead.github.io/flycast-builds/xbox.png)
-
-Get fresh builds for your system [**on the builds page**](https://flyinghead.github.io/flycast-builds/).
-
-**New:** Now automated test results are available as well. 
-
-### Build requirements (Linux):
-
-- **C/C++ compiler toolchain** (e.g. `gcc`/`g++`)
-- **CMake**
-- **make**
-- **libcurl** (development headers)
-- **libudev** (development headers)
-- **SDL2** (development headers)
-- **Graphics API**: Vulcan, OpenGL
-
-### Build instructions:
+```bash
+brew install cmake ninja ccache ldid
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+git submodule update --init --recursive
 ```
-$ git clone --recursive https://github.com/flyinghead/flycast.git
-$ cd flycast
-$ mkdir build && cd build
-$ cmake ..
-$ make
+
+Full Xcode is required (not just Command Line Tools).
+
+### Configure & build
+
+```bash
+cmake -B build-ios \
+  -DCMAKE_SYSTEM_NAME=iOS \
+  -DCMAKE_OSX_DEPLOYMENT_TARGET=14.0 \
+  -DCMAKE_OSX_ARCHITECTURES=arm64 \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DUSE_BREAKPAD=NO \
+  -G Xcode
+
+cmake --build build-ios --config Release --target flycast -- -quiet
 ```
+
+### Package the IPA
+
+```bash
+cd build-ios
+rm -rf Payload && mkdir Payload
+cp -r Release-iphoneos/Flycast.app Payload/
+python3 ../tools/patch_sdk_version.py Payload/Flycast.app/Flycast 15.1
+ldid -S../shell/apple/emulator-ios/emulator/flycast.entitlements Payload/Flycast.app/Flycast
+zip -r -q Release-iphoneos/Flycast.ipa Payload
+```
+
+`patch_sdk_version.py` rewrites the binary's `LC_BUILD_VERSION` and the Info.plist `DT*` keys so the IPA installs on iOS versions older than the Xcode SDK used to build it.
+
+See [`CLAUDE.md`](CLAUDE.md) for the full build and JIT architecture notes.
+
+## Credits
+
+- **[flyinghead](https://github.com/flyinghead)** and all Flycast contributors — the emulator itself.
+- **[skmp](https://github.com/skmp)** and the original [reicast](https://github.com/skmp/reicast-emulator) project Flycast derives from.
+- **[TheArcadeStriker's Flycast wiki](https://github.com/TheArcadeStriker/flycast-wiki/wiki)** — configuration and feature documentation.
+- TrollStore, SideStore, AltStore, and StikDebug authors — JIT enablement on stock iOS.
+- [Anthropic](https://www.anthropic.com/) — **Claude** assisted the iOS-specific JIT and build work in this fork.
+
+Join the upstream Flycast community on the [official Discord](https://discord.gg/X8YWP8w) for general emulator discussion. iOS-specific issues belong on this fork's issue tracker.

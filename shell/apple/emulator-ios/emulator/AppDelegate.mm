@@ -29,6 +29,7 @@
 #include "log/LogManager.h"
 #include "cfg/option.h"
 #include "ui/gui.h"
+#include "../ios_jit_manager.h"
 
 static bool emulatorRunning;
 
@@ -56,6 +57,33 @@ static bool emulatorRunning;
         /* Make LLDB ignore EXC_BAD_ACCESS for debugging */
         task_set_exception_ports(mach_task_self(), EXC_MASK_BAD_ACCESS, MACH_PORT_NULL, EXCEPTION_DEFAULT, 0);
     }
+
+    // Defer the JIT availability check by a few seconds so AltKit's
+    // checkTryDebug() (called from FlycastViewController viewDidLoad)
+    // has a chance to set CS_DEBUGGED before we decide to alert.
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)),
+                   dispatch_get_main_queue(), ^{
+        if (ios_jit_is_available())
+            return;
+
+        UIAlertController *alert = [UIAlertController
+            alertControllerWithTitle:@"JIT Not Active"
+                             message:@"JIT is required. Please activate JIT via StikDebug or AltStore before launching a game."
+                      preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+
+        UIWindow *window = nil;
+        for (UIWindow *w in application.windows) {
+            if (w.isKeyWindow) { window = w; break; }
+        }
+        if (window == nil && application.windows.count > 0)
+            window = application.windows.firstObject;
+
+        UIViewController *root = window.rootViewController;
+        while (root.presentedViewController != nil)
+            root = root.presentedViewController;
+        [root presentViewController:alert animated:YES completion:nil];
+    });
 
     return YES;
 }

@@ -18,7 +18,11 @@
 constexpr u32 CODE_SIZE = 10_MB;
 constexpr u32 TEMP_CODE_SIZE = 1_MB;
 constexpr u32 FULL_SIZE = CODE_SIZE + TEMP_CODE_SIZE;
+#ifdef TARGET_IPHONE
+static u8 *SH4_TCB;
+#else
 DECLARE_CODE_CACHE(SH4_TCB, FULL_SIZE)
+#endif
 
 static u8* CodeCache;
 static u8* TempCodeCache;
@@ -350,7 +354,7 @@ void Sh4Recompiler::Init()
 
 	// Call the platform-specific magic to make the pages RWX
 	CodeCache = nullptr;
-#ifdef FEAT_NO_RWX_PAGES
+#if defined(FEAT_NO_RWX_PAGES) || defined(TARGET_IPHONE)
 	bool rc = virtmem::prepare_jit_block(SH4_TCB, FULL_SIZE, (void**)&CodeCache, &cc_rx_offset);
 #else
 	bool rc = virtmem::prepare_jit_block(SH4_TCB, FULL_SIZE, (void**)&CodeCache);
@@ -367,7 +371,7 @@ void Sh4Recompiler::Init()
 void Sh4Recompiler::Term()
 {
 	INFO_LOG(DYNAREC, "Sh4Recompiler::Term");
-#ifdef FEAT_NO_RWX_PAGES
+#if defined(FEAT_NO_RWX_PAGES) || defined(TARGET_IPHONE)
 	if (CodeCache != nullptr)
 		virtmem::release_jit_block(CodeCache, (u8 *)CodeCache + cc_rx_offset, FULL_SIZE);
 #else

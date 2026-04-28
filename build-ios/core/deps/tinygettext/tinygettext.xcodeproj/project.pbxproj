@@ -9,44 +9,44 @@
 /* Begin PBXAggregateTarget section */
 		16BFDBBCC061913F1CADEF4A /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F5E8BB8175084E189424C836 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 50F011D5B8D54795987520C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				BB9536DA419131B749AB5E55 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				DAE68359D57F40E587B2DE15 /* PBXTargetDependency */,
-				DA0998D784F246B69BA82B0A /* PBXTargetDependency */,
+				5F8D2081789D4216A36BE7DC /* PBXTargetDependency */,
+				A8D0412BF7934F21A8C1B400 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		2F6E340B880F8019E67E84A3 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B8DB258E6B0F4A5A8F8699B7 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 81BF6B30868C41E38ACF7E04 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				798523A303184D34BA258466 /* PBXTargetDependency */,
+				6AA8639094894F0B8DBA0DC9 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		682A2F1F20D8339B84A3D770 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0D7E083DB3CE4E54AA5FD83C /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 2B6077A6F2E34146B469083A /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				9D767E27069043719E0A579D /* PBXTargetDependency */,
+				1F2A16CF58A44EC6A8272B5B /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		B0B29501EBEC1C234713D131 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 07B4CA7D2BB54EEE9CAC5BB1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = B18187DE9B3D4B7C980C79E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				B9486F8D458009212A2A737C /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -58,42 +58,42 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		38EC77E92612480E96F47B6F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */ = {isa = PBXBuildFile; fileRef = 2FE6482A398D4DCF8393E55A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */; };
-		4D341633B794498D82F0C5B9 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */ = {isa = PBXBuildFile; fileRef = D26A3F4CDB1E42BA983E7B9B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */; };
-		6987561743294E2B85812E36 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */ = {isa = PBXBuildFile; fileRef = 11A1F2F7DE0947ACBC10A395 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */; };
-		788086BAAE2F425C848F1A37 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */ = {isa = PBXBuildFile; fileRef = ABEBCBBD215D43658B7A5BE5 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */; };
-		79FB3CF0296446D5BA3EFA01 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */ = {isa = PBXBuildFile; fileRef = 2BEE6455CE1344FBA85E8C03 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */; };
-		7A83C668F96C465DAAB5F4FD /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CC2DFE74217B44699885300E /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */; };
-		85D1168B640E4E27962B6051 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 4F46320E0D844668AF3ED266 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */; };
-		88012395DCD044858FB5EE00 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */ = {isa = PBXBuildFile; fileRef = 5C902E0C2E19481E9C0E6D41 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */; };
-		9734298837384CF9B89E424F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */ = {isa = PBXBuildFile; fileRef = 03747DB419F24602B3B54CA6 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */; };
-		EEF710F183DE4B8583E6706D /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */ = {isa = PBXBuildFile; fileRef = B887BFA4C9DC4A02B7F4D863 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */; };
-		F53A54568442448C8F70010F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */ = {isa = PBXBuildFile; fileRef = B747AE3E25204949B78207C5 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */; };
+		4492FEE21CE749A9BDF5E77B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */ = {isa = PBXBuildFile; fileRef = CA98C2D00A5C4510A4D7F33A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */; };
+		48FF44DA19A74DF8B3E12238 /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4ACEAF4A5C3047E78F4D31DD /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */; };
+		63C8479998B74F00BFC1DCB3 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */ = {isa = PBXBuildFile; fileRef = 4C3E7729C4DA4C93875E3122 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */; };
+		66F95B3E2D5D4665B52F56CB /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */ = {isa = PBXBuildFile; fileRef = 458C93D5BAF74619AA9A878B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */; };
+		6FFE515A17484571AFCCFCD9 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */ = {isa = PBXBuildFile; fileRef = FD47C361D95E4F8FB1B59B51 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */; };
+		90A602DB605B418083A77F25 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */ = {isa = PBXBuildFile; fileRef = F992CE8911BC4FF7A55A4463 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */; };
+		B10EF6673E34476CB77626D7 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */ = {isa = PBXBuildFile; fileRef = E2EBB08774194C4197662F64 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */; };
+		C7234C73345645F2AC746EAE /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */ = {isa = PBXBuildFile; fileRef = 0C9BC7F3D4BF41FEA4115AD8 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */; };
+		D79B783851AF429CB775493A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */ = {isa = PBXBuildFile; fileRef = 8409DFD13E4C46798357BE6F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */; };
+		E4D06B0736294AC0989C28BB /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */ = {isa = PBXBuildFile; fileRef = 3BFAA08FA2EE47B28C8CF8C8 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */; };
+		F285BC859D1844DA96FC2688 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 8887814BFE6948A392C7F316 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		6D18C453DEC74A149F79C4AE /* RelWithDebInfo */ = {
+		475958315FA04EC5AED96B61 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		86C99CF0BCCD4FF1B2A19B63 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		BA376B795C654E17B8F08312 /* Release */ = {
+		6611688403AC41EC85DFA487 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		CA7DA783C71C428E9CD6D01D /* MinSizeRel */ = {
+		96C3E5F0949042918EC14BEE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BC5A2AB868AC442B83555CBD /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -103,61 +103,61 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		3F419EFA14C74E2BB820EA2C /* PBXContainerItemProxy */ = {
+		4A89E01C757D4269BDDC0833 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 791EA98E4C4847B8B59A306A /* Project object */;
+			containerPortal = EF4757DEF3F346B599718765 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B0B29501EBEC1C234713D131;
 			remoteInfo = ZERO_CHECK;
 		};
-		65FD54EB06FB4002B42BE1F6 /* PBXContainerItemProxy */ = {
+		6E3B9CD12BF042CAA2900888 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 791EA98E4C4847B8B59A306A /* Project object */;
+			containerPortal = EF4757DEF3F346B599718765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B29501EBEC1C234713D131;
+			remoteInfo = ZERO_CHECK;
+		};
+		AA3FF33517844C76BF442D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4757DEF3F346B599718765 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
 			remoteInfo = ALL_BUILD;
 		};
-		6E0FA00A885B45E3954A1EBB /* PBXContainerItemProxy */ = {
+		E6BFA65D104E4DED912541E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 791EA98E4C4847B8B59A306A /* Project object */;
+			containerPortal = EF4757DEF3F346B599718765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
+			remoteInfo = ALL_BUILD;
+		};
+		E8FA7E177D42465EABBAAB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4757DEF3F346B599718765 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A3E9654B2D035F12882F7F4B;
 			remoteInfo = tinygettext;
 		};
-		6FD6E10D22144E2B9D384790 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 791EA98E4C4847B8B59A306A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0B29501EBEC1C234713D131;
-			remoteInfo = ZERO_CHECK;
-		};
-		D96C7D989E92459EAB03CE00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 791EA98E4C4847B8B59A306A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16BFDBBCC061913F1CADEF4A;
-			remoteInfo = ALL_BUILD;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03747DB419F24602B3B54CA6 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log.cpp; path = src/log.cpp; sourceTree = SOURCE_ROOT; };
-		11A1F2F7DE0947ACBC10A395 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unix_file_system.cpp; path = src/unix_file_system.cpp; sourceTree = SOURCE_ROOT; };
-		2BEE6455CE1344FBA85E8C03 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dictionary.cpp; path = src/dictionary.cpp; sourceTree = SOURCE_ROOT; };
-		2FE6482A398D4DCF8393E55A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinygettext.cpp; path = src/tinygettext.cpp; sourceTree = SOURCE_ROOT; };
-		43392FAC67F5492AB74FDC77 /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		4F46320E0D844668AF3ED266 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist"; sourceTree = "<absolute>"; };
-		5C902E0C2E19481E9C0E6D41 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plural_forms.cpp; path = src/plural_forms.cpp; sourceTree = SOURCE_ROOT; };
-		ABEBCBBD215D43658B7A5BE5 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = po_parser.cpp; path = src/po_parser.cpp; sourceTree = SOURCE_ROOT; };
-		B747AE3E25204949B78207C5 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dictionary_manager.cpp; path = src/dictionary_manager.cpp; sourceTree = SOURCE_ROOT; };
-		B887BFA4C9DC4A02B7F4D863 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = language.cpp; path = src/language.cpp; sourceTree = SOURCE_ROOT; };
-		CC2DFE74217B44699885300E /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D26A3F4CDB1E42BA983E7B9B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iconv.cpp; path = src/iconv.cpp; sourceTree = SOURCE_ROOT; };
-		E3C97BC9ECE745F997091889 /* tinygettext */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtinygettext.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9BC7F3D4BF41FEA4115AD8 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dictionary_manager.cpp; path = src/dictionary_manager.cpp; sourceTree = SOURCE_ROOT; };
+		3BFAA08FA2EE47B28C8CF8C8 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unix_file_system.cpp; path = src/unix_file_system.cpp; sourceTree = SOURCE_ROOT; };
+		458C93D5BAF74619AA9A878B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = po_parser.cpp; path = src/po_parser.cpp; sourceTree = SOURCE_ROOT; };
+		4ACEAF4A5C3047E78F4D31DD /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4C3E7729C4DA4C93875E3122 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dictionary.cpp; path = src/dictionary.cpp; sourceTree = SOURCE_ROOT; };
+		5F45A50D861E4D2D922B976C /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8409DFD13E4C46798357BE6F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinygettext.cpp; path = src/tinygettext.cpp; sourceTree = SOURCE_ROOT; };
+		8887814BFE6948A392C7F316 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist"; sourceTree = "<absolute>"; };
+		CA98C2D00A5C4510A4D7F33A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log.cpp; path = src/log.cpp; sourceTree = SOURCE_ROOT; };
+		DC32777E7F2342839249512F /* tinygettext */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtinygettext.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EBB08774194C4197662F64 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plural_forms.cpp; path = src/plural_forms.cpp; sourceTree = SOURCE_ROOT; };
+		F992CE8911BC4FF7A55A4463 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = language.cpp; path = src/language.cpp; sourceTree = SOURCE_ROOT; };
+		FD47C361D95E4F8FB1B59B51 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iconv.cpp; path = src/iconv.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49F75AE66E3746B4BA24F29F /* Frameworks */ = {
+		F1267B3D79234172B979AA04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,87 +167,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08D4D0AC0DE34B01AD243ACB /* Resources */ = {
+		056C97743A904C128878649F = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2FBD8A8221914280B7A3154A /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				F7B23F56DB5A42F09260AD7F /* CMake Rules */,
-				43392FAC67F5492AB74FDC77 /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		76BA479F60D6458A9509C779 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				2BEE6455CE1344FBA85E8C03 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */,
-				B747AE3E25204949B78207C5 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */,
-				D26A3F4CDB1E42BA983E7B9B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */,
-				B887BFA4C9DC4A02B7F4D863 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */,
-				03747DB419F24602B3B54CA6 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */,
-				5C902E0C2E19481E9C0E6D41 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */,
-				ABEBCBBD215D43658B7A5BE5 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */,
-				2FE6482A398D4DCF8393E55A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */,
-				11A1F2F7DE0947ACBC10A395 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		8DEF0AA4AAA545248CC83E63 = {
-			isa = PBXGroup;
-			children = (
-				2FBD8A8221914280B7A3154A /* ALL_BUILD */,
-				E0C629C5A0934C33B7E70D23 /* tinygettext */,
-				D9A6C2B8A8414A82A1E39750 /* Products */,
-				9A3CCD6C5EC14B0AAE4BD5E3 /* Frameworks */,
-				08D4D0AC0DE34B01AD243ACB /* Resources */,
+				C7713309D9334B3F951FE323 /* ALL_BUILD */,
+				44C3964541C844C2B0481799 /* tinygettext */,
+				B04A7AF5DC7E404A91F62BEC /* Products */,
+				19A2BD934E10402AA2248526 /* Frameworks */,
+				51E11BC902AF4CC0B898DB36 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
-		9A3CCD6C5EC14B0AAE4BD5E3 /* Frameworks */ = {
+		19A2BD934E10402AA2248526 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9A6C2B8A8414A82A1E39750 /* Products */ = {
+		44C3964541C844C2B0481799 /* tinygettext */ = {
 			isa = PBXGroup;
 			children = (
-				E3C97BC9ECE745F997091889 /* tinygettext */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E0C629C5A0934C33B7E70D23 /* tinygettext */ = {
-			isa = PBXGroup;
-			children = (
-				E664D34FF59D49A9AE342EDF /* Resources */,
-				76BA479F60D6458A9509C779 /* Source Files */,
-				CC2DFE74217B44699885300E /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */,
+				98C82D3A0E8944268F8D233E /* Resources */,
+				C4F16A768AAD4C9184FE1013 /* Source Files */,
+				4ACEAF4A5C3047E78F4D31DD /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */,
 			);
 			name = tinygettext;
 			sourceTree = "<group>";
 		};
-		E664D34FF59D49A9AE342EDF /* Resources */ = {
+		51E11BC902AF4CC0B898DB36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4F46320E0D844668AF3ED266 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F7B23F56DB5A42F09260AD7F /* CMake Rules */ = {
+		92417A8D4CFC4B0F891AE32E /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		98C82D3A0E8944268F8D233E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8887814BFE6948A392C7F316 /* /Users/alexmatos/flycast/build-ios/core/deps/tinygettext/CMakeFiles/tinygettext.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B04A7AF5DC7E404A91F62BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC32777E7F2342839249512F /* tinygettext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F16A768AAD4C9184FE1013 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E7729C4DA4C93875E3122 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */,
+				0C9BC7F3D4BF41FEA4115AD8 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */,
+				FD47C361D95E4F8FB1B59B51 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */,
+				F992CE8911BC4FF7A55A4463 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */,
+				CA98C2D00A5C4510A4D7F33A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */,
+				E2EBB08774194C4197662F64 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */,
+				458C93D5BAF74619AA9A878B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */,
+				8409DFD13E4C46798357BE6F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */,
+				3BFAA08FA2EE47B28C8CF8C8 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C7713309D9334B3F951FE323 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				92417A8D4CFC4B0F891AE32E /* CMake Rules */,
+				5F45A50D861E4D2D922B976C /* /Users/alexmatos/flycast/core/deps/tinygettext/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,42 +255,42 @@
 /* Begin PBXNativeTarget section */
 		A3E9654B2D035F12882F7F4B /* tinygettext */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7306A26BF63240AB95B3BF96 /* Build configuration list for PBXNativeTarget "tinygettext" */;
+			buildConfigurationList = 40E679F9FEA443348EF6DCD0 /* Build configuration list for PBXNativeTarget "tinygettext" */;
 			buildPhases = (
-				ADFFB827E86D4EEF836ECF53 /* Sources */,
-				49F75AE66E3746B4BA24F29F /* Frameworks */,
+				044C1A17F67E4300843F38F5 /* Sources */,
+				F1267B3D79234172B979AA04 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEE857FB85B44FBC9EF5B268 /* PBXTargetDependency */,
+				273BBD06B98C4A4F8BA0BDE6 /* PBXTargetDependency */,
 			);
 			name = tinygettext;
 			productName = tinygettext;
-			productReference = E3C97BC9ECE745F997091889 /* tinygettext */;
+			productReference = DC32777E7F2342839249512F /* tinygettext */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		791EA98E4C4847B8B59A306A /* Project object */ = {
+		EF4757DEF3F346B599718765 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1620;
 			};
-			buildConfigurationList = BE63806549C04B5F8316E063 /* Build configuration list for PBXProject "tinygettext" */;
+			buildConfigurationList = 9F21BFF092B840578C0081F9 /* Build configuration list for PBXProject "tinygettext" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				86C99CF0BCCD4FF1B2A19B63 /* Debug */,
-				BA376B795C654E17B8F08312 /* Release */,
-				CA7DA783C71C428E9CD6D01D /* MinSizeRel */,
-				6D18C453DEC74A149F79C4AE /* RelWithDebInfo */,
+				96C3E5F0949042918EC14BEE /* Debug */,
+				6611688403AC41EC85DFA487 /* Release */,
+				BC5A2AB868AC442B83555CBD /* MinSizeRel */,
+				475958315FA04EC5AED96B61 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 8DEF0AA4AAA545248CC83E63;
+			mainGroup = 056C97743A904C128878649F;
 			projectDirPath = /Users/alexmatos/flycast/core/deps/tinygettext;
 			projectRoot = "";
 			targets = (
@@ -499,54 +499,54 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ADFFB827E86D4EEF836ECF53 /* Sources */ = {
+		044C1A17F67E4300843F38F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79FB3CF0296446D5BA3EFA01 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */,
-				F53A54568442448C8F70010F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */,
-				4D341633B794498D82F0C5B9 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */,
-				EEF710F183DE4B8583E6706D /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */,
-				9734298837384CF9B89E424F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */,
-				88012395DCD044858FB5EE00 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */,
-				788086BAAE2F425C848F1A37 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */,
-				38EC77E92612480E96F47B6F /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */,
-				6987561743294E2B85812E36 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */,
+				63C8479998B74F00BFC1DCB3 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary.cpp */,
+				C7234C73345645F2AC746EAE /* /Users/alexmatos/flycast/core/deps/tinygettext/src/dictionary_manager.cpp */,
+				6FFE515A17484571AFCCFCD9 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/iconv.cpp */,
+				90A602DB605B418083A77F25 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/language.cpp */,
+				4492FEE21CE749A9BDF5E77B /* /Users/alexmatos/flycast/core/deps/tinygettext/src/log.cpp */,
+				B10EF6673E34476CB77626D7 /* /Users/alexmatos/flycast/core/deps/tinygettext/src/plural_forms.cpp */,
+				66F95B3E2D5D4665B52F56CB /* /Users/alexmatos/flycast/core/deps/tinygettext/src/po_parser.cpp */,
+				D79B783851AF429CB775493A /* /Users/alexmatos/flycast/core/deps/tinygettext/src/tinygettext.cpp */,
+				E4D06B0736294AC0989C28BB /* /Users/alexmatos/flycast/core/deps/tinygettext/src/unix_file_system.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		798523A303184D34BA258466 /* PBXTargetDependency */ = {
+		1F2A16CF58A44EC6A8272B5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 16BFDBBCC061913F1CADEF4A /* ALL_BUILD */;
-			targetProxy = D96C7D989E92459EAB03CE00 /* PBXContainerItemProxy */;
+			targetProxy = E6BFA65D104E4DED912541E8 /* PBXContainerItemProxy */;
 		};
-		9D767E27069043719E0A579D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 16BFDBBCC061913F1CADEF4A /* ALL_BUILD */;
-			targetProxy = 65FD54EB06FB4002B42BE1F6 /* PBXContainerItemProxy */;
-		};
-		CEE857FB85B44FBC9EF5B268 /* PBXTargetDependency */ = {
+		273BBD06B98C4A4F8BA0BDE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
-			targetProxy = 3F419EFA14C74E2BB820EA2C /* PBXContainerItemProxy */;
+			targetProxy = 4A89E01C757D4269BDDC0833 /* PBXContainerItemProxy */;
 		};
-		DA0998D784F246B69BA82B0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
-			targetProxy = 6FD6E10D22144E2B9D384790 /* PBXContainerItemProxy */;
-		};
-		DAE68359D57F40E587B2DE15 /* PBXTargetDependency */ = {
+		5F8D2081789D4216A36BE7DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A3E9654B2D035F12882F7F4B /* tinygettext */;
-			targetProxy = 6E0FA00A885B45E3954A1EBB /* PBXContainerItemProxy */;
+			targetProxy = E8FA7E177D42465EABBAAB19 /* PBXContainerItemProxy */;
+		};
+		6AA8639094894F0B8DBA0DC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BFDBBCC061913F1CADEF4A /* ALL_BUILD */;
+			targetProxy = AA3FF33517844C76BF442D5C /* PBXContainerItemProxy */;
+		};
+		A8D0412BF7934F21A8C1B400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B29501EBEC1C234713D131 /* ZERO_CHECK */;
+			targetProxy = 6E3B9CD12BF042CAA2900888 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		173E9B9E1C374A3EA3372946 /* RelWithDebInfo */ = {
+		03272AB7A8A140AA8BB169D3 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -575,304 +575,11 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		323CB86183E146D28C6DF80B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		35ADCD5095FB49918F6FA09B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		387C59686DFD4538BC174B1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		40CA360BA1544F47AD5EBA74 /* RelWithDebInfo */ = {
+		0FEF231E7A174CE995E355F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
-			};
-			name = RelWithDebInfo;
-		};
-		418BA868BFF64FD2B7A36FB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		566860A1D1A1469EB02B8A3D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		6A82770E1A6546D99F5889A3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		6F8AF10AD83642218DAC4B4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		7200DE5197B844E397D7A716 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/core/deps/tinygettext/Debug${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VERSION='",TINYGETTEXT_WO_ICONV,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexmatos/flycast/core/deps/tinygettext/include,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = tinygettext;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/tinygettext.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		77868382E1764F6BA8E389CF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
-			};
-			name = MinSizeRel;
-		};
-		80EF163B31C34B4C89AF4E01 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/core/deps/tinygettext/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VERSION='",TINYGETTEXT_WO_ICONV,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexmatos/flycast/core/deps/tinygettext/include,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = tinygettext;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/tinygettext.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		8F37784D0F064C739DAD90F2 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		92841C3A7CC8446E9AB34B9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		9A5E4A62F7504EE4B45FF032 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		9E954DB5178E421BB07A8590 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
-			};
-			name = Debug;
-		};
-		A5F5EAEA830242C9B73384F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
@@ -880,67 +587,7 @@ fi
 			};
 			name = Release;
 		};
-		A8AB1965CF54452D9C427C65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B054DF84C5BF444A949782AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		DBF955F80E334850B82EDA29 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		EA51181E8DCA4A0593ADCA22 /* RelWithDebInfo */ = {
+		10E5BF3ED5EC4B40B895E87D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -960,27 +607,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		F7BBF93C559D41A29EC5601C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		FEBC74656C0A4F65A16BA686 /* Release */ = {
+		1589EC1100DD4B98B7AE2799 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1009,7 +636,291 @@ fi
 			};
 			name = Release;
 		};
-		FF74343799E54AF292FC13DA /* Release */ = {
+		1F05E41F77114DEFA998B6C7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = RelWithDebInfo;
+		};
+		20D6175B054B4C6C96F4805B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/core/deps/tinygettext/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VERSION='",TINYGETTEXT_WO_ICONV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexmatos/flycast/core/deps/tinygettext/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tinygettext;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/tinygettext.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22C276EC55BF4DE0A4D92690 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22EF20727DAD4D48A8B3F255 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		28F31C9C4F0842F697FDB5C3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		30B4AB68D1974D2B8D015DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		34EEA88933BA4582B58EC636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = Debug;
+		};
+		56B78E979E4946BABA7C86E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5DA1B3E4F0DA45F7BDE1B4BC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7BE16AB64B77472B983BC074 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		837F13347F034841A7344687 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/alexmatos/flycast/build-ios/build";
+			};
+			name = MinSizeRel;
+		};
+		A8856DCBDEDA46779EAA361E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AA0C412195934E8093A59C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C54FC40D14DA4E1A9A32BD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CD8ABFCE96FF47AFB7E81C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D29E73457DFB4C3B88970E73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1029,76 +940,165 @@ fi
 			};
 			name = Release;
 		};
+		DF6B45323F79457091910B2B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DF8AD8F9D69748AD805E50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alexmatos/flycast/build-ios/core/deps/tinygettext/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VERSION='",TINYGETTEXT_WO_ICONV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexmatos/flycast/core/deps/tinygettext/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tinygettext;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alexmatos/flycast/build-ios/build/tinygettext.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E2CDBC9C3FDC49FEB967852B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E74CD01634E8493582940B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07B4CA7D2BB54EEE9CAC5BB1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		2B6077A6F2E34146B469083A /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B054DF84C5BF444A949782AA /* Debug */,
-				FF74343799E54AF292FC13DA /* Release */,
-				9A5E4A62F7504EE4B45FF032 /* MinSizeRel */,
-				323CB86183E146D28C6DF80B /* RelWithDebInfo */,
+				AA0C412195934E8093A59C9F /* Debug */,
+				56B78E979E4946BABA7C86E2 /* Release */,
+				E2CDBC9C3FDC49FEB967852B /* MinSizeRel */,
+				10E5BF3ED5EC4B40B895E87D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		0D7E083DB3CE4E54AA5FD83C /* Build configuration list for PBXAggregateTarget "package" */ = {
+		40E679F9FEA443348EF6DCD0 /* Build configuration list for PBXNativeTarget "tinygettext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				418BA868BFF64FD2B7A36FB8 /* Debug */,
-				387C59686DFD4538BC174B1A /* Release */,
-				DBF955F80E334850B82EDA29 /* MinSizeRel */,
-				EA51181E8DCA4A0593ADCA22 /* RelWithDebInfo */,
+				DF8AD8F9D69748AD805E50EF /* Debug */,
+				1589EC1100DD4B98B7AE2799 /* Release */,
+				20D6175B054B4C6C96F4805B /* MinSizeRel */,
+				03272AB7A8A140AA8BB169D3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7306A26BF63240AB95B3BF96 /* Build configuration list for PBXNativeTarget "tinygettext" */ = {
+		50F011D5B8D54795987520C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7200DE5197B844E397D7A716 /* Debug */,
-				FEBC74656C0A4F65A16BA686 /* Release */,
-				80EF163B31C34B4C89AF4E01 /* MinSizeRel */,
-				173E9B9E1C374A3EA3372946 /* RelWithDebInfo */,
+				A8856DCBDEDA46779EAA361E /* Debug */,
+				E74CD01634E8493582940B3D /* Release */,
+				22C276EC55BF4DE0A4D92690 /* MinSizeRel */,
+				28F31C9C4F0842F697FDB5C3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B8DB258E6B0F4A5A8F8699B7 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		81BF6B30868C41E38ACF7E04 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F8AF10AD83642218DAC4B4B /* Debug */,
-				92841C3A7CC8446E9AB34B9B /* Release */,
-				8F37784D0F064C739DAD90F2 /* MinSizeRel */,
-				F7BBF93C559D41A29EC5601C /* RelWithDebInfo */,
+				C54FC40D14DA4E1A9A32BD3E /* Debug */,
+				30B4AB68D1974D2B8D015DBC /* Release */,
+				22EF20727DAD4D48A8B3F255 /* MinSizeRel */,
+				DF6B45323F79457091910B2B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BE63806549C04B5F8316E063 /* Build configuration list for PBXProject "tinygettext" */ = {
+		9F21BFF092B840578C0081F9 /* Build configuration list for PBXProject "tinygettext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E954DB5178E421BB07A8590 /* Debug */,
-				A5F5EAEA830242C9B73384F3 /* Release */,
-				77868382E1764F6BA8E389CF /* MinSizeRel */,
-				40CA360BA1544F47AD5EBA74 /* RelWithDebInfo */,
+				34EEA88933BA4582B58EC636 /* Debug */,
+				0FEF231E7A174CE995E355F0 /* Release */,
+				837F13347F034841A7344687 /* MinSizeRel */,
+				1F05E41F77114DEFA998B6C7 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F5E8BB8175084E189424C836 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		B18187DE9B3D4B7C980C79E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8AB1965CF54452D9C427C65 /* Debug */,
-				35ADCD5095FB49918F6FA09B /* Release */,
-				566860A1D1A1469EB02B8A3D /* MinSizeRel */,
-				6A82770E1A6546D99F5889A3 /* RelWithDebInfo */,
+				CD8ABFCE96FF47AFB7E81C2A /* Debug */,
+				D29E73457DFB4C3B88970E73 /* Release */,
+				5DA1B3E4F0DA45F7BDE1B4BC /* MinSizeRel */,
+				7BE16AB64B77472B983BC074 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 791EA98E4C4847B8B59A306A /* Project object */;
+	rootObject = EF4757DEF3F346B599718765 /* Project object */;
 }

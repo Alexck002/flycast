@@ -46,10 +46,7 @@ static Arm64UnwindInfo unwinder;
 #ifdef TARGET_IPHONE
 static void JITWriteProtect(bool enable)
 {
-    if (enable)
-    	virtmem::region_set_exec(recompiler::ICache, recompiler::ICacheSize);
-    else
-    	virtmem::region_unlock(recompiler::ICache, recompiler::ICacheSize);
+	virtmem::ios_jit_write_protect(recompiler::ICache, recompiler::ICacheSize, enable);
 }
 #endif
 
